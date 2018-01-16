@@ -8,12 +8,7 @@
   <List>
     <ListSource />
     <SelectedProvider>CategoryListProvider</SelectedProvider>
-    <ArticleList>
-      <Article NameSpaceKey="10">
-        <PreProcessed>false</PreProcessed>
-        <Name>Template:Wiktionarylang</Name>
-      </Article>
-    </ArticleList>
+    <ArticleList />
   </List>
   <FindAndReplace>
     <Enabled>true</Enabled>

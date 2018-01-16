@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AutoWikiBrowserPreferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xml:space="preserve" Version="5.9.0.0">
-  <Project>wikisource</Project>
+  <Project>wikibooks</Project>
   <LanguageCode>zh</LanguageCode>
   <CustomProject>zh.wikipedia.beta.wmflabs.org/w</CustomProject>
   <Protocol>https://</Protocol>
@@ -17,8 +17,8 @@
     <AppendSummary>false</AppendSummary>
     <Replacements>
       <Replacement>
-        <Find>({{PRC-..-law[^}]*?\|):([^}]+?}})</Find>
-        <Replace>$1$2</Replace>
+        <Find>&lt;rt&gt;(.+?)&lt;rt&gt;</Find>
+        <Replace>&lt;rt&gt;$1&lt;/rt&gt;</Replace>
         <Comment />
         <IsRegex>true</IsRegex>
         <Enabled>true</Enabled>
@@ -53,7 +53,7 @@
     <Newlines>2</Newlines>
     <AutoDelay>10</AutoDelay>
     <BotMaxEdits>0</BotMaxEdits>
-    <SupressTag>true</SupressTag>
+    <SupressTag>false</SupressTag>
     <RegexTypoFix>false</RegexTypoFix>
   </Editprefs>
   <General>
@@ -62,9 +62,9 @@
       <SavePeriod>30</SavePeriod>
       <SaveFile />
     </AutoSaveEdit>
-    <SelectedSummary>半自動修復[[Special:LintErrors/multi-colon-escape|Lint 錯誤：多餘的冒號]]</SelectedSummary>
+    <SelectedSummary>半自動修復[[Special:LintErrors/html5-misnesting|Lint 錯誤：在HTML5和HTML4中對錯誤嵌套的標籤有不同的渲染]]</SelectedSummary>
     <Summaries>
-      <string>半自動修復[[Special:LintErrors/multi-colon-escape|Lint 錯誤：多餘的冒號]]</string>
+      <string>半自動修復[[Special:LintErrors/html5-misnesting|Lint 錯誤：在HTML5和HTML4中對錯誤嵌套的標籤有不同的渲染]]</string>
     </Summaries>
     <PasteMore>
       <string />
@@ -103,7 +103,7 @@
     <EditToolbarEnabled>true</EditToolbarEnabled>
     <filterNonMainSpace>false</filterNonMainSpace>
     <AutoFilterDuplicates>false</AutoFilterDuplicates>
-    <FocusAtEndOfEditBox>false</FocusAtEndOfEditBox>
+    <FocusAtEndOfEditBox>true</FocusAtEndOfEditBox>
     <scrollToUnbalancedBrackets>false</scrollToUnbalancedBrackets>
     <TextBoxSize>10</TextBoxSize>
     <TextBoxFont>Courier New</TextBoxFont>

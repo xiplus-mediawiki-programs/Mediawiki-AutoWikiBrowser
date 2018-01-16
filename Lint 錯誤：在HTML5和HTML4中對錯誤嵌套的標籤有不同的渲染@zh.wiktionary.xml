@@ -8,48 +8,7 @@
   <List>
     <ListSource />
     <SelectedProvider>CategoryListProvider</SelectedProvider>
-    <ArticleList>
-      <Article NameSpaceKey="0">
-        <PreProcessed>false</PreProcessed>
-        <Name>双</Name>
-      </Article>
-      <Article NameSpaceKey="100">
-        <PreProcessed>false</PreProcessed>
-        <Name>附录:部首索引/⾪</Name>
-      </Article>
-      <Article NameSpaceKey="100">
-        <PreProcessed>false</PreProcessed>
-        <Name>附录:部首索引/⿅</Name>
-      </Article>
-      <Article NameSpaceKey="100">
-        <PreProcessed>false</PreProcessed>
-        <Name>附录:部首索引/⼑</Name>
-      </Article>
-      <Article NameSpaceKey="0">
-        <PreProcessed>false</PreProcessed>
-        <Name>螢</Name>
-      </Article>
-      <Article NameSpaceKey="0">
-        <PreProcessed>false</PreProcessed>
-        <Name>詠</Name>
-      </Article>
-      <Article NameSpaceKey="0">
-        <PreProcessed>false</PreProcessed>
-        <Name>do</Name>
-      </Article>
-      <Article NameSpaceKey="0">
-        <PreProcessed>false</PreProcessed>
-        <Name>不</Name>
-      </Article>
-      <Article NameSpaceKey="0">
-        <PreProcessed>false</PreProcessed>
-        <Name>了</Name>
-      </Article>
-      <Article NameSpaceKey="2">
-        <PreProcessed>false</PreProcessed>
-        <Name>User:Араси</Name>
-      </Article>
-    </ArticleList>
+    <ArticleList />
   </List>
   <FindAndReplace>
     <Enabled>true</Enabled>
@@ -106,6 +65,7 @@
       </IRule>
       <IRule xsi:type="Rule">
         <enabled_>true</enabled_>
+        <Children />
         <Name>replace 語</Name>
         <ruletype_>OnWholePage</ruletype_>
         <replace_>{{語\|(ja)\|\n([^*#]*)([*#])(.+)\n</replace_>
@@ -120,6 +80,7 @@
       </IRule>
       <IRule xsi:type="Rule">
         <enabled_>true</enabled_>
+        <Children />
         <Name>clear empty lang</Name>
         <ruletype_>OnWholePage</ruletype_>
         <replace_>{{lang\|..\|\n}}\n?</replace_>
@@ -139,7 +100,7 @@
     <IgnoreUnformatted>false</IgnoreUnformatted>
   </FindAndReplace>
   <Editprefs>
-    <GeneralFixes>false</GeneralFixes>
+    <GeneralFixes>true</GeneralFixes>
     <Tagger>false</Tagger>
     <Unicodify>true</Unicodify>
     <Recategorisation>0</Recategorisation>
