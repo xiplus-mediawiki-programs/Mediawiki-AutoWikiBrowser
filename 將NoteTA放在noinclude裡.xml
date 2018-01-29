@@ -189,7 +189,7 @@
     <SkipDoesNotRegex>false</SkipDoesNotRegex>
     <SkipDoesNotCaseSensitive>false</SkipDoesNotCaseSensitive>
     <SkipDoesNotAfterProcessing>false</SkipDoesNotAfterProcessing>
-    <SkipNoFindAndReplace>false</SkipNoFindAndReplace>
+    <SkipNoFindAndReplace>true</SkipNoFindAndReplace>
     <SkipMinorFindAndReplace>false</SkipMinorFindAndReplace>
     <SkipNoRegexTypoFix>false</SkipNoRegexTypoFix>
     <SkipNoDisambiguation>false</SkipNoDisambiguation>
