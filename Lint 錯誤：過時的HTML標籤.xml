@@ -17,7 +17,17 @@
     <AppendSummary>false</AppendSummary>
     <Replacements>
       <Replacement>
-        <Find>&lt;center&gt;(.+?)&lt;/center&gt;</Find>
+        <Find>&lt;center&gt;([^=]+?)&lt;/center&gt;</Find>
+        <Replace>{{center|$1}}</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Singleline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>&lt;center&gt;(.*?=.*?)&lt;/center&gt;</Find>
         <Replace>&lt;div style="text-align: center;"&gt;$1&lt;/div&gt;</Replace>
         <Comment />
         <IsRegex>true</IsRegex>
@@ -27,8 +37,68 @@
         <RegularExpressionOptions>IgnoreCase Singleline</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>&lt;font color="?#?(.+?)"?&gt;(.+?)&lt;/font&gt;</Find>
+        <Find>&lt;font lang="?(.+?)"?&gt;(.+?)&lt;/font&gt;</Find>
+        <Replace>&lt;span lang="$1"&gt;$2&lt;/span&gt;</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>&lt;font color="?#?([A-F0-9]+?)"?&gt;(.+?)&lt;/font&gt;</Find>
         <Replace>&lt;span style="color: #$1;"&gt;$2&lt;/span&gt;</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>&lt;font color="?([A-Z]+?)"?&gt;(.+?)&lt;/font&gt;</Find>
+        <Replace>&lt;span style="color: $1;"&gt;$2&lt;/span&gt;</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>&lt;font size="?-2"?&gt;(.+?)&lt;/font&gt;</Find>
+        <Replace>&lt;span style="font-size: x-small;"&gt;$1&lt;/span&gt;</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>&lt;font size="?3"?&gt;(.+?)&lt;/font&gt;</Find>
+        <Replace>&lt;span style="font-size: medium;"&gt;$1&lt;/span&gt;</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>&lt;font size="?5"?&gt;(.+?)&lt;/font&gt;</Find>
+        <Replace>&lt;span style="font-size: x-large;"&gt;$1&lt;/span&gt;</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>&lt;font size="?(.+?)"?&gt;(.+?)&lt;/font&gt;</Find>
+        <Replace>&lt;span style="font-size: $1;"&gt;$2&lt;/span&gt;</Replace>
         <Comment />
         <IsRegex>true</IsRegex>
         <Enabled>true</Enabled>
@@ -65,6 +135,16 @@
         <Minor>false</Minor>
         <BeforeOrAfter>false</BeforeOrAfter>
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>&lt;tt(.*?)&gt;(.+?)&lt;/tt&gt;</Find>
+        <Replace>&lt;samp$1&gt;$2&lt;/samp&gt;</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Singleline</RegularExpressionOptions>
       </Replacement>
     </Replacements>
     <AdvancedReps />
