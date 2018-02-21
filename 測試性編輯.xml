@@ -896,6 +896,16 @@
         <BeforeOrAfter>false</BeforeOrAfter>
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
+      <Replacement>
+        <Find>&lt;br&gt;\s*\n\|\|</Find>
+        <Replace>\n||</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
     </Replacements>
     <AdvancedReps />
     <SubstTemplates />
@@ -932,9 +942,9 @@
       <SavePeriod>30</SavePeriod>
       <SaveFile />
     </AutoSaveEdit>
-    <SelectedSummary>半自動修正[[Special:滥用过滤器/6|点击工具条产生之测试性编辑]]</SelectedSummary>
+    <SelectedSummary>半自動修正[[Special:滥用过滤器/6|点击工具条产生之测试性编辑]]；請勿加入無內容的標點符號</SelectedSummary>
     <Summaries>
-      <string>半自動修正[[Special:滥用过滤器/6|点击工具条产生之测试性编辑]]</string>
+      <string>半自動修正[[Special:滥用过滤器/6|点击工具条产生之测试性编辑]]；請勿加入無內容的標點符號</string>
     </Summaries>
     <PasteMore>
       <string />
