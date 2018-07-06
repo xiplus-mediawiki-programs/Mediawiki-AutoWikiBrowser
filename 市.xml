@@ -97,6 +97,16 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
+        <Find>豐田巿</Find>
+        <Replace>豐田市</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
         <Find>北京巿</Find>
         <Replace>北京市</Replace>
         <Comment />
@@ -637,6 +647,26 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
+        <Find>元朗巿</Find>
+        <Replace>元朗市</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>蚌埠巿</Find>
+        <Replace>蚌埠市</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
         <Find>天津巿</Find>
         <Replace>天津市</Replace>
         <Comment />
@@ -649,6 +679,16 @@
       <Replacement>
         <Find>揭西巿</Find>
         <Replace>揭西市</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>基巿</Find>
+        <Replace>基市</Replace>
         <Comment />
         <IsRegex>false</IsRegex>
         <Enabled>true</Enabled>
@@ -1057,16 +1097,6 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>收巿</Find>
-        <Replace>收市</Replace>
-        <Comment />
-        <IsRegex>false</IsRegex>
-        <Enabled>true</Enabled>
-        <Minor>false</Minor>
-        <BeforeOrAfter>false</BeforeOrAfter>
-        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
-      </Replacement>
-      <Replacement>
         <Find>巿占率</Find>
         <Replace>市占率</Replace>
         <Comment />
@@ -1159,6 +1189,16 @@
       <Replacement>
         <Find>巿面</Find>
         <Replace>市面</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>收巿</Find>
+        <Replace>收市</Replace>
         <Comment />
         <IsRegex>false</IsRegex>
         <Enabled>true</Enabled>
