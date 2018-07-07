@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AutoWikiBrowserPreferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xml:space="preserve" Version="5.9.0.0">
-  <Project>wikiquote</Project>
+  <Project>wikipedia</Project>
   <LanguageCode>zh</LanguageCode>
   <CustomProject>zh.wikipedia.beta.wmflabs.org/w</CustomProject>
   <Protocol>https://</Protocol>
@@ -21,7 +21,7 @@
         <Replace>{{center|$1}}</Replace>
         <Comment />
         <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
+        <Enabled>false</Enabled>
         <Minor>false</Minor>
         <BeforeOrAfter>false</BeforeOrAfter>
         <RegularExpressionOptions>IgnoreCase Singleline</RegularExpressionOptions>
@@ -31,7 +31,7 @@
         <Replace>&lt;div style="text-align: center;"&gt;$1&lt;/div&gt;</Replace>
         <Comment />
         <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
+        <Enabled>false</Enabled>
         <Minor>false</Minor>
         <BeforeOrAfter>false</BeforeOrAfter>
         <RegularExpressionOptions>IgnoreCase Singleline</RegularExpressionOptions>
@@ -137,6 +137,16 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
+        <Find>&lt;font face="(.+?)" color="(.+?)"&gt;(.+?)&lt;/font&gt;</Find>
+        <Replace>&lt;span style="font-family: $1; color: $2;"&gt;$3&lt;/span&gt;</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
         <Find>&lt;tt(.*?)&gt;(.+?)&lt;/tt&gt;</Find>
         <Replace>&lt;samp$1&gt;$2&lt;/samp&gt;</Replace>
         <Comment />
@@ -145,6 +155,16 @@
         <Minor>false</Minor>
         <BeforeOrAfter>false</BeforeOrAfter>
         <RegularExpressionOptions>IgnoreCase Singleline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>&lt;center&gt;([^\n]+?)&lt;/center&gt;</Find>
+        <Replace>&lt;div class="center"&gt;$1&lt;/div&gt;</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
     </Replacements>
     <AdvancedReps />
