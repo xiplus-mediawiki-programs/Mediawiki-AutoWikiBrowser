@@ -6,7 +6,7 @@
   <Protocol>http://</Protocol>
   <LoginDomain />
   <List>
-    <ListSource>insource: "{{#if:"</ListSource>
+    <ListSource>insource:/\{\{\#if\:/</ListSource>
     <SelectedProvider>WikiSearchListProvider</SelectedProvider>
     <ArticleList />
   </List>
@@ -67,18 +67,18 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>'''\t?(.+?)\t?'''</Find>
+        <Find>'''\s+(.+?)\s*'''\s*$</Find>
         <Replace>'''$1'''</Replace>
         <Comment />
         <IsRegex>true</IsRegex>
         <Enabled>true</Enabled>
         <Minor>false</Minor>
         <BeforeOrAfter>false</BeforeOrAfter>
-        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>\s+$</Find>
-        <Replace />
+        <Find>'''\s*(.+?)\s+'''\s*$</Find>
+        <Replace>'''$1'''</Replace>
         <Comment />
         <IsRegex>true</IsRegex>
         <Enabled>true</Enabled>
@@ -209,7 +209,7 @@
     <SkipNonexistent>true</SkipNonexistent>
     <Skipexistent>false</Skipexistent>
     <SkipDontCare>false</SkipDontCare>
-    <SkipWhenNoChanges>false</SkipWhenNoChanges>
+    <SkipWhenNoChanges>true</SkipWhenNoChanges>
     <SkipSpamFilterBlocked>false</SkipSpamFilterBlocked>
     <SkipInuse>false</SkipInuse>
     <SkipWhenOnlyWhitespaceChanged>false</SkipWhenOnlyWhitespaceChanged>
