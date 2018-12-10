@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<AutoWikiBrowserPreferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xml:space="preserve" Version="5.9.0.0">
+<AutoWikiBrowserPreferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xml:space="preserve" Version="5.10.1.0">
   <Project>wikipedia</Project>
   <LanguageCode>zh</LanguageCode>
   <CustomProject>zh.wikipedia.beta.wmflabs.org/w</CustomProject>
@@ -82,9 +82,9 @@
       <SavePeriod>30</SavePeriod>
       <SaveFile />
     </AutoSaveEdit>
-    <SelectedSummary>將NoteTA放在noinclude裡</SelectedSummary>
+    <SelectedSummary>[[Special:PermaLink/51552410#其他注意事項|將NoteTA放在noinclude裡]]</SelectedSummary>
     <Summaries>
-      <string>將NoteTA放在noinclude裡</string>
+      <string>[[Special:PermaLink/51552410#其他注意事項|將NoteTA放在noinclude裡]]</string>
     </Summaries>
     <PasteMore>
       <string />
@@ -105,7 +105,7 @@
     <ToolBarEnabled>false</ToolBarEnabled>
     <BypassRedirect>true</BypassRedirect>
     <AutoSaveSettings>false</AutoSaveSettings>
-    <noSectionEditSummary>false</noSectionEditSummary>
+    <noSectionEditSummary>true</noSectionEditSummary>
     <restrictDefaultsortAddition>true</restrictDefaultsortAddition>
     <restrictOrphanTagging>true</restrictOrphanTagging>
     <noMOSComplianceFixes>false</noMOSComplianceFixes>
