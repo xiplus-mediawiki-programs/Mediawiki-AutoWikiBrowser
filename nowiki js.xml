@@ -18,7 +18,7 @@
     <Replacements>
       <Replacement>
         <Find>^([\s\S]+)$</Find>
-        <Replace>//&lt;nowiki&gt;\n$1\n//&lt;/nowiki&gt;</Replace>
+        <Replace>// &lt;nowiki&gt;\n$1\n// &lt;/nowiki&gt;</Replace>
         <Comment />
         <IsRegex>true</IsRegex>
         <Enabled>true</Enabled>
@@ -54,9 +54,9 @@
     <IgnoreUnformatted>false</IgnoreUnformatted>
   </FindAndReplace>
   <Editprefs>
-    <GeneralFixes>true</GeneralFixes>
+    <GeneralFixes>false</GeneralFixes>
     <Tagger>false</Tagger>
-    <Unicodify>true</Unicodify>
+    <Unicodify>false</Unicodify>
     <Recategorisation>0</Recategorisation>
     <NewCategory />
     <NewCategory2 />
