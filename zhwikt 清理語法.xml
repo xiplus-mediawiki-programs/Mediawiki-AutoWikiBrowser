@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AutoWikiBrowserPreferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xml:space="preserve" Version="5.10.1.0">
+  <Project>wiktionary</Project>
+  <LanguageCode>zh</LanguageCode>
+  <CustomProject />
+  <Protocol>http://</Protocol>
+  <LoginDomain />
+  <List>
+    <ListSource>含有受损文件链接的页面</ListSource>
+    <SelectedProvider>CategoryListProvider</SelectedProvider>
+    <ArticleList />
+  </List>
+  <FindAndReplace>
+    <Enabled>true</Enabled>
+    <IgnoreSomeText>false</IgnoreSomeText>
+    <IgnoreMoreText>false</IgnoreMoreText>
+    <AppendSummary>false</AppendSummary>
+    <Replacements>
+      <Replacement>
+        <Find>\ ''\[\[]]''</Find>
+        <Replace />
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>:\[\[]]</Find>
+        <Replace />
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>：\[\[]]</Find>
+        <Replace />
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>-〉</Find>
+        <Replace />
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>s'~\s*</Find>
+        <Replace />
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\*\{\{audio1\|Fr-\{\{PAGENAME}}\.ogg}}</Find>
+        <Replace />
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>({{de-prnc\|[^\|]+?)\|[^}]+?}}</Find>
+        <Replace>$1}}</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>{{-pron-}}\n+{{IPA\|}}\n+({{-)</Find>
+        <Replace>$1</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>==={{-etym-}}===\n+(===|{{-)</Find>
+        <Replace>$1</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>====相关词汇====\n\*同音词：\n\*近义词：\n\*反义词：\n\*派生词：\n\*常见搭配：\n+(===)</Find>
+        <Replace>$1</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\*\n</Find>
+        <Replace />
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>====相关词组====\n+(\[\[Category)</Find>
+        <Replace>$1</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>====相关词组====\n+({{fr-conj-)</Find>
+        <Replace>$1</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>====相关词汇====\n\*同音词：\n+(\[\[Category)</Find>
+        <Replace>$1</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\{\{de-prnc\|</Find>
+        <Replace>{{subst:de-prnc|</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>&lt;!--及物动词。第组动词。变位表格见下。--&gt;\n</Find>
+        <Replace />
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>----\n</Find>
+        <Replace />
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\.(\s\s+)</Find>
+        <Replace>. </Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(?&lt;![#a-z])((?:n|m|adj|inv|v)\.|et )</Find>
+        <Replace>\n#$1</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>{{-pt-}}</Find>
+        <Replace>\n==葡萄牙语==</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>{{-mt-}}</Find>
+        <Replace>\n==马耳他语==</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\n#\n</Find>
+        <Replace>\n</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+    </Replacements>
+    <AdvancedReps>
+      <IRule xsi:type="Rule">
+        <enabled_>true</enabled_>
+        <Children />
+        <Name>Rule</Name>
+        <ruletype_>OnWholePage</ruletype_>
+        <replace_>#((?:[a-z]{1,3}\.\s*)+)(?:\d+\.\s*)?((?:[^a-z\s])+)\s*\d+\.\s*((?:[^a-z\s])+)</replace_>
+        <with_>#$1$2\n#$1$3</with_>
+        <ifContains_ />
+        <ifNotContains_ />
+        <regex_>true</regex_>
+        <ifIsRegex_>false</ifIsRegex_>
+        <numoftimes_>10</numoftimes_>
+        <ifRegexOptions_>None</ifRegexOptions_>
+        <regexOptions_>None</regexOptions_>
+      </IRule>
+      <IRule xsi:type="Rule">
+        <enabled_>true</enabled_>
+        <Children />
+        <Name>Rule</Name>
+        <ruletype_>OnWholePage</ruletype_>
+        <replace_>((?:(?:n|m|adj|inv|v)\.|et ) *)\n#((?:n|m|adj|inv|v)\.|et )</replace_>
+        <with_>$1$2</with_>
+        <ifContains_ />
+        <ifNotContains_ />
+        <regex_>true</regex_>
+        <ifIsRegex_>false</ifIsRegex_>
+        <numoftimes_>10</numoftimes_>
+        <ifRegexOptions_>None</ifRegexOptions_>
+        <regexOptions_>None</regexOptions_>
+      </IRule>
+    </AdvancedReps>
+    <SubstTemplates>
+      <string>-akin-</string>
+      <string>-anton-</string>
+      <string>-decl-</string>
+      <string>-deriv-</string>
+      <string>-etym-</string>
+      <string>-expr-</string>
+      <string>-link-</string>
+      <string>-pron-</string>
+      <string>-refer-</string>
+      <string>-synon-</string>
+      <string>-trans-</string>
+      <string>-usage-</string>
+      <string>-v-</string>
+      <string>-n-</string>
+      <string>-adj-</string>
+      <string>-adv-</string>
+      <string>-intj-</string>
+      <string>-conj-</string>
+      <string>-de-</string>
+      <string>-fi-</string>
+      <string>-sv-</string>
+    </SubstTemplates>
+    <IncludeComments>false</IncludeComments>
+    <ExpandRecursively>true</ExpandRecursively>
+    <IgnoreUnformatted>false</IgnoreUnformatted>
+  </FindAndReplace>
+  <Editprefs>
+    <GeneralFixes>true</GeneralFixes>
+    <Tagger>false</Tagger>
+    <Unicodify>true</Unicodify>
+    <Recategorisation>0</Recategorisation>
+    <NewCategory />
+    <NewCategory2 />
+    <ReImage>0</ReImage>
+    <ImageFind />
+    <Replace />
+    <SkipIfNoCatChange>false</SkipIfNoCatChange>
+    <RemoveSortKey>false</RemoveSortKey>
+    <SkipIfNoImgChange>false</SkipIfNoImgChange>
+    <AppendText>false</AppendText>
+    <AppendTextMetaDataSort>false</AppendTextMetaDataSort>
+    <Append>true</Append>
+    <Text />
+    <Newlines>2</Newlines>
+    <AutoDelay>3</AutoDelay>
+    <BotMaxEdits>0</BotMaxEdits>
+    <SupressTag>false</SupressTag>
+    <RegexTypoFix>false</RegexTypoFix>
+  </Editprefs>
+  <General>
+    <AutoSaveEdit>
+      <Enabled>false</Enabled>
+      <SavePeriod>30</SavePeriod>
+      <SaveFile />
+    </AutoSaveEdit>
+    <SelectedSummary>機器人：修復[[:Category:含有受损文件链接的页面|含有受损文件链接的页面]]及清理語法</SelectedSummary>
+    <Summaries>
+      <string>機器人：修復[[:Category:含有受损文件链接的页面|含有受损文件链接的页面]]及清理語法</string>
+    </Summaries>
+    <PasteMore>
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+    </PasteMore>
+    <FindText />
+    <FindRegex>false</FindRegex>
+    <FindCaseSensitive>false</FindCaseSensitive>
+    <WordWrap>true</WordWrap>
+    <ToolBarEnabled>false</ToolBarEnabled>
+    <BypassRedirect>true</BypassRedirect>
+    <AutoSaveSettings>true</AutoSaveSettings>
+    <noSectionEditSummary>true</noSectionEditSummary>
+    <restrictDefaultsortAddition>true</restrictDefaultsortAddition>
+    <restrictOrphanTagging>true</restrictOrphanTagging>
+    <noMOSComplianceFixes>false</noMOSComplianceFixes>
+    <syntaxHighlightEditBox>false</syntaxHighlightEditBox>
+    <highlightAllFind>false</highlightAllFind>
+    <PreParseMode>false</PreParseMode>
+    <NoAutoChanges>false</NoAutoChanges>
+    <OnLoadAction>0</OnLoadAction>
+    <DiffInBotMode>false</DiffInBotMode>
+    <Minor>true</Minor>
+    <AddToWatchlist>2</AddToWatchlist>
+    <TimerEnabled>false</TimerEnabled>
+    <SortListAlphabetically>false</SortListAlphabetically>
+    <AddIgnoredToLog>false</AddIgnoredToLog>
+    <EditToolbarEnabled>true</EditToolbarEnabled>
+    <filterNonMainSpace>false</filterNonMainSpace>
+    <AutoFilterDuplicates>false</AutoFilterDuplicates>
+    <FocusAtEndOfEditBox>false</FocusAtEndOfEditBox>
+    <scrollToUnbalancedBrackets>false</scrollToUnbalancedBrackets>
+    <TextBoxSize>10</TextBoxSize>
+    <TextBoxFont>Courier New</TextBoxFont>
+    <LowThreadPriority>false</LowThreadPriority>
+    <Beep>false</Beep>
+    <Flash>false</Flash>
+    <Minimize>false</Minimize>
+    <LockSummary>true</LockSummary>
+    <SaveArticleList>true</SaveArticleList>
+    <SuppressUsingAWB>false</SuppressUsingAWB>
+    <AddUsingAWBToActionSummaries>false</AddUsingAWBToActionSummaries>
+    <IgnoreNoBots>false</IgnoreNoBots>
+    <ClearPageListOnProjectChange>false</ClearPageListOnProjectChange>
+    <SortInterWikiOrder>true</SortInterWikiOrder>
+    <ReplaceReferenceTags>true</ReplaceReferenceTags>
+    <LoggingEnabled>true</LoggingEnabled>
+    <AlertPreferences>
+      <int>1</int>
+      <int>2</int>
+      <int>3</int>
+      <int>4</int>
+      <int>5</int>
+      <int>6</int>
+      <int>7</int>
+      <int>8</int>
+      <int>9</int>
+      <int>10</int>
+      <int>11</int>
+      <int>12</int>
+      <int>13</int>
+      <int>14</int>
+      <int>15</int>
+      <int>16</int>
+      <int>17</int>
+      <int>18</int>
+      <int>19</int>
+      <int>20</int>
+      <int>21</int>
+      <int>22</int>
+    </AlertPreferences>
+  </General>
+  <SkipOptions>
+    <SkipNonexistent>true</SkipNonexistent>
+    <Skipexistent>false</Skipexistent>
+    <SkipDontCare>false</SkipDontCare>
+    <SkipWhenNoChanges>false</SkipWhenNoChanges>
+    <SkipSpamFilterBlocked>false</SkipSpamFilterBlocked>
+    <SkipInuse>false</SkipInuse>
+    <SkipWhenOnlyWhitespaceChanged>false</SkipWhenOnlyWhitespaceChanged>
+    <SkipOnlyGeneralFixChanges>false</SkipOnlyGeneralFixChanges>
+    <SkipOnlyMinorGeneralFixChanges>false</SkipOnlyMinorGeneralFixChanges>
+    <SkipOnlyCosmetic>false</SkipOnlyCosmetic>
+    <SkipOnlyCasingChanged>false</SkipOnlyCasingChanged>
+    <SkipIfRedirect>false</SkipIfRedirect>
+    <SkipIfNoAlerts>false</SkipIfNoAlerts>
+    <SkipDoes>false</SkipDoes>
+    <SkipDoesText />
+    <SkipDoesRegex>false</SkipDoesRegex>
+    <SkipDoesCaseSensitive>false</SkipDoesCaseSensitive>
+    <SkipDoesAfterProcessing>false</SkipDoesAfterProcessing>
+    <SkipDoesNot>false</SkipDoesNot>
+    <SkipDoesNotText />
+    <SkipDoesNotRegex>false</SkipDoesNotRegex>
+    <SkipDoesNotCaseSensitive>false</SkipDoesNotCaseSensitive>
+    <SkipDoesNotAfterProcessing>false</SkipDoesNotAfterProcessing>
+    <SkipNoFindAndReplace>false</SkipNoFindAndReplace>
+    <SkipMinorFindAndReplace>false</SkipMinorFindAndReplace>
+    <SkipNoRegexTypoFix>false</SkipNoRegexTypoFix>
+    <SkipNoDisambiguation>false</SkipNoDisambiguation>
+    <SkipNoLinksOnPage>false</SkipNoLinksOnPage>
+    <GeneralSkipList />
+  </SkipOptions>
+  <Module>
+    <Enabled>false</Enabled>
+    <Language>C# 3.5</Language>
+    <Code>        public string ProcessArticle(string ArticleText, string ArticleTitle, int wikiNamespace, out string Summary, out bool Skip)
+        {
+            Skip = false;
+            Summary = "test";
+            ArticleText = "test \r\n\r\n" + ArticleText;
+            return ArticleText;
+        }</Code>
+  </Module>
+  <ExternalProgram>
+    <Enabled>false</Enabled>
+    <Skip>false</Skip>
+    <Program />
+    <Parameters />
+    <PassAsFile>true</PassAsFile>
+    <OutputFile />
+  </ExternalProgram>
+  <Disambiguation>
+    <Enabled>false</Enabled>
+    <Link />
+    <Variants />
+    <ContextChars>20</ContextChars>
+  </Disambiguation>
+  <Special>
+    <namespaceValues />
+    <remDupes>true</remDupes>
+    <sortAZ>true</sortAZ>
+    <filterTitlesThatContain>false</filterTitlesThatContain>
+    <filterTitlesThatContainText />
+    <filterTitlesThatDontContain>false</filterTitlesThatDontContain>
+    <filterTitlesThatDontContainText />
+    <areRegex>false</areRegex>
+    <opType>-1</opType>
+    <remove />
+  </Special>
+  <Tool>
+    <ListComparerUseCurrentArticleList>0</ListComparerUseCurrentArticleList>
+    <ListSplitterUseCurrentArticleList>0</ListSplitterUseCurrentArticleList>
+    <DatabaseScannerUseCurrentArticleList>0</DatabaseScannerUseCurrentArticleList>
+  </Tool>
+  <Plugin />
+</AutoWikiBrowserPreferences>
