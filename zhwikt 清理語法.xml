@@ -227,6 +227,26 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
+        <Find>==={{-etym-}}===</Find>
+        <Replace>===词源===</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>{{-etym-}}</Find>
+        <Replace>\n===词源===</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
         <Find>\n#\n</Find>
         <Replace>\n</Replace>
         <Comment />
@@ -274,7 +294,6 @@
       <string>-anton-</string>
       <string>-decl-</string>
       <string>-deriv-</string>
-      <string>-etym-</string>
       <string>-expr-</string>
       <string>-link-</string>
       <string>-pron-</string>
@@ -291,6 +310,7 @@
       <string>-de-</string>
       <string>-fi-</string>
       <string>-sv-</string>
+      <string>-lb-</string>
     </SubstTemplates>
     <IncludeComments>false</IncludeComments>
     <ExpandRecursively>true</ExpandRecursively>
