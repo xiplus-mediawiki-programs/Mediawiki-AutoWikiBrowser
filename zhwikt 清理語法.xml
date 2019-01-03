@@ -6,9 +6,9 @@
   <Protocol>http://</Protocol>
   <LoginDomain />
   <List>
-    <ArticleList />
     <ListSource>insource: "subst:Template:hzxz"</ListSource>
     <SelectedProvider>WikiSearchListProvider</SelectedProvider>
+    <ArticleList />
   </List>
   <FindAndReplace>
     <Enabled>true</Enabled>
@@ -107,6 +107,26 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
+        <Find>&lt;nowiki&gt;\[&lt;/nowiki&gt;</Find>
+        <Replace />
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>&lt;nowiki&gt;]&lt;/nowiki&gt;</Find>
+        <Replace />
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
         <Find>\[\[(.+?)\|\[\[.+?\]\]</Find>
         <Replace>[[$1]]</Replace>
         <Comment />
@@ -119,6 +139,16 @@
       <Replacement>
         <Find>\[\[(.+?)\]\]\|.+?\]\]</Find>
         <Replace>[[$1]]</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(e:hzxz\|.+?\|).+?(1\))</Find>
+        <Replace>$1$2</Replace>
         <Comment />
         <IsRegex>true</IsRegex>
         <Enabled>true</Enabled>
