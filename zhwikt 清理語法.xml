@@ -6,7 +6,7 @@
   <Protocol>http://</Protocol>
   <LoginDomain />
   <List>
-    <ListSource>insource: "subst:Template:hzxz"</ListSource>
+    <ListSource>insource:/\[\[знач.:\]\]/</ListSource>
     <SelectedProvider>WikiSearchListProvider</SelectedProvider>
     <ArticleList />
   </List>
@@ -17,7 +17,7 @@
     <AppendSummary>false</AppendSummary>
     <Replacements>
       <Replacement>
-        <Find>\[\[знач\.]]</Find>
+        <Find>\[\[знач\.:]]</Find>
         <Replace>знач.</Replace>
         <Comment />
         <IsRegex>false</IsRegex>
@@ -107,51 +107,21 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>&lt;nowiki&gt;\[&lt;/nowiki&gt;</Find>
-        <Replace />
+        <Find>\{\{日語-題</Find>
+        <Replace>{{subst:日語-題/subst</Replace>
         <Comment />
         <IsRegex>false</IsRegex>
-        <Enabled>true</Enabled>
+        <Enabled>false</Enabled>
         <Minor>false</Minor>
         <BeforeOrAfter>false</BeforeOrAfter>
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>&lt;nowiki&gt;]&lt;/nowiki&gt;</Find>
-        <Replace />
+        <Find>\{\{朝鮮語漢字詞</Find>
+        <Replace>{{subst:朝鮮語漢字詞/subst</Replace>
         <Comment />
         <IsRegex>false</IsRegex>
-        <Enabled>true</Enabled>
-        <Minor>false</Minor>
-        <BeforeOrAfter>false</BeforeOrAfter>
-        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
-      </Replacement>
-      <Replacement>
-        <Find>\[\[(.+?)\|\[\[.+?\]\]</Find>
-        <Replace>[[$1]]</Replace>
-        <Comment />
-        <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
-        <Minor>false</Minor>
-        <BeforeOrAfter>false</BeforeOrAfter>
-        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
-      </Replacement>
-      <Replacement>
-        <Find>\[\[(.+?)\]\]\|.+?\]\]</Find>
-        <Replace>[[$1]]</Replace>
-        <Comment />
-        <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
-        <Minor>false</Minor>
-        <BeforeOrAfter>false</BeforeOrAfter>
-        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
-      </Replacement>
-      <Replacement>
-        <Find>(e:hzxz\|.+?\|).+?(1\))</Find>
-        <Replace>$1$2</Replace>
-        <Comment />
-        <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
+        <Enabled>false</Enabled>
         <Minor>false</Minor>
         <BeforeOrAfter>false</BeforeOrAfter>
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
