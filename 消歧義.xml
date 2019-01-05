@@ -17,8 +17,8 @@
     <AppendSummary>false</AppendSummary>
     <Replacements>
       <Replacement>
-        <Find>亞洲電視\[\[國際台]]</Find>
-        <Replace>[[亞洲電視國際台]]</Replace>
+        <Find>亞洲電視\[\[亞洲台]]</Find>
+        <Replace>[[亞洲電視亞洲台]]</Replace>
         <Comment />
         <IsRegex>false</IsRegex>
         <Enabled>true</Enabled>
@@ -27,8 +27,8 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>\[\[亞洲電視]]\[\[國際台]]</Find>
-        <Replace>[[亞洲電視國際台]]</Replace>
+        <Find>\[\[亞洲電視]]\[\[亞洲台]]</Find>
+        <Replace>[[亞洲電視亞洲台]]</Replace>
         <Comment />
         <IsRegex>false</IsRegex>
         <Enabled>true</Enabled>
@@ -37,8 +37,8 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>亚视\[\[国际台]]</Find>
-        <Replace>[[亞洲電視國際台|亚视国际台]]</Replace>
+        <Find>亚视\[\[亚洲台]]</Find>
+        <Replace>[[亞洲電視亞洲台|亚视亚洲台]]</Replace>
         <Comment />
         <IsRegex>false</IsRegex>
         <Enabled>true</Enabled>
@@ -47,8 +47,8 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>\[\[亞視]]\[\[國際台]]</Find>
-        <Replace>[[亞洲電視國際台|亞視國際台]]</Replace>
+        <Find>\[\[亞視]]\[\[亞洲台]]</Find>
+        <Replace>[[亞洲電視亞洲台|亞視亞洲台]]</Replace>
         <Comment />
         <IsRegex>false</IsRegex>
         <Enabled>true</Enabled>
@@ -57,8 +57,8 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>\[\[亚洲电视]]\[\[国际台]]</Find>
-        <Replace>[[亞洲電視國際台]]</Replace>
+        <Find>\[\[亚洲电视]]\[\[亚洲台]]</Find>
+        <Replace>[[亞洲電視亞洲台]]</Replace>
         <Comment />
         <IsRegex>false</IsRegex>
         <Enabled>true</Enabled>
@@ -67,8 +67,8 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>\[\[亞洲電視]]\[\[国际台]]</Find>
-        <Replace>[[亞洲電視國際台]]</Replace>
+        <Find>\[\[亞洲電視]]\[\[亚洲台]]</Find>
+        <Replace>[[亞洲電視亞洲台]]</Replace>
         <Comment />
         <IsRegex>false</IsRegex>
         <Enabled>true</Enabled>
@@ -77,8 +77,8 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>亞洲電視\[\[国际台]]</Find>
-        <Replace>[[亞洲電視國際台]]</Replace>
+        <Find>亞洲電視\[\[亚洲台]]</Find>
+        <Replace>[[亞洲電視亞洲台]]</Replace>
         <Comment />
         <IsRegex>false</IsRegex>
         <Enabled>true</Enabled>
@@ -87,8 +87,8 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>亞視\[\[國際台]]</Find>
-        <Replace>[[亞洲電視國際台|亞視國際台]]</Replace>
+        <Find>亞視\[\[亞洲台]]</Find>
+        <Replace>[[亞洲電視亞洲台|亞視亞洲台]]</Replace>
         <Comment />
         <IsRegex>false</IsRegex>
         <Enabled>true</Enabled>
@@ -97,8 +97,8 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>\[\[國際台]]</Find>
-        <Replace>[[亞洲電視國際台|國際台]]</Replace>
+        <Find>\[\[亞洲台]]</Find>
+        <Replace>[[亞洲電視亞洲台|亞洲台]]</Replace>
         <Comment />
         <IsRegex>false</IsRegex>
         <Enabled>true</Enabled>
@@ -107,10 +107,30 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>\[\[国际台]]</Find>
-        <Replace>[[亞洲電視國際台|国际台]]</Replace>
+        <Find>\[\[亚洲台]]</Find>
+        <Replace>[[亞洲電視亞洲台|亚洲台]]</Replace>
         <Comment />
         <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\[\[亞洲台\|(.+?)]]</Find>
+        <Replace>[[亞洲電視亞洲台|$1]]</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\[\[亚洲台\|(.+?)]]</Find>
+        <Replace>[[亞洲電視亞洲台|$1]]</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
         <Enabled>true</Enabled>
         <Minor>false</Minor>
         <BeforeOrAfter>false</BeforeOrAfter>
@@ -152,9 +172,9 @@
       <SavePeriod>30</SavePeriod>
       <SaveFile />
     </AutoSaveEdit>
-    <SelectedSummary>消歧義：[[國際台]] → [[亞洲電視國際台]]</SelectedSummary>
+    <SelectedSummary>消歧義：[[亞洲台]] → [[亞洲電視亞洲台]]</SelectedSummary>
     <Summaries>
-      <string>消歧義：[[國際台]] → [[亞洲電視國際台]]</string>
+      <string>消歧義：[[亞洲台]] → [[亞洲電視亞洲台]]</string>
     </Summaries>
     <PasteMore>
       <string />
@@ -193,7 +213,7 @@
     <EditToolbarEnabled>true</EditToolbarEnabled>
     <filterNonMainSpace>false</filterNonMainSpace>
     <AutoFilterDuplicates>false</AutoFilterDuplicates>
-    <FocusAtEndOfEditBox>false</FocusAtEndOfEditBox>
+    <FocusAtEndOfEditBox>true</FocusAtEndOfEditBox>
     <scrollToUnbalancedBrackets>false</scrollToUnbalancedBrackets>
     <TextBoxSize>10</TextBoxSize>
     <TextBoxFont>Courier New</TextBoxFont>
