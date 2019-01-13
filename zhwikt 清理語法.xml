@@ -6,8 +6,8 @@
   <Protocol>http://</Protocol>
   <LoginDomain />
   <List>
-    <ListSource>含有受损文件链接的页面</ListSource>
-    <SelectedProvider>CategoryListProvider</SelectedProvider>
+    <ListSource />
+    <SelectedProvider>WikiSearchAllNSListProvider</SelectedProvider>
     <ArticleList />
   </List>
   <FindAndReplace>
@@ -17,8 +17,18 @@
     <AppendSummary>false</AppendSummary>
     <Replacements>
       <Replacement>
-        <Find>\ ''\[\[]]''</Find>
+        <Find>\[\[CL:(條|張|隻).*?]]+</Find>
         <Replace />
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>；；</Find>
+        <Replace>；</Replace>
         <Comment />
         <IsRegex>false</IsRegex>
         <Enabled>true</Enabled>
@@ -27,8 +37,8 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>:\[\[]]</Find>
-        <Replace />
+        <Find>\[\[1\)\ \*]]</Find>
+        <Replace>1)</Replace>
         <Comment />
         <IsRegex>false</IsRegex>
         <Enabled>true</Enabled>
@@ -37,8 +47,8 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>：\[\[]]</Find>
-        <Replace />
+        <Find>\[\[«Шицзина»]]</Find>
+        <Replace>«Шицзина»</Replace>
         <Comment />
         <IsRegex>false</IsRegex>
         <Enabled>true</Enabled>
@@ -47,8 +57,8 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>-〉</Find>
-        <Replace />
+        <Find>\[\[«Ицзина»]]</Find>
+        <Replace>«Ицзина»</Replace>
         <Comment />
         <IsRegex>false</IsRegex>
         <Enabled>true</Enabled>
@@ -57,138 +67,8 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>s'~\s*</Find>
-        <Replace />
-        <Comment />
-        <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
-        <Minor>false</Minor>
-        <BeforeOrAfter>false</BeforeOrAfter>
-        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
-      </Replacement>
-      <Replacement>
-        <Find>\*{{audio1\|(?:Fr|Ru)-.*?.ogg}}\n?</Find>
-        <Replace />
-        <Comment />
-        <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
-        <Minor>false</Minor>
-        <BeforeOrAfter>false</BeforeOrAfter>
-        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
-      </Replacement>
-      <Replacement>
-        <Find>[*:]* {{audio\|en-.*?\.ogg(?:\|.+?)?}}\n?</Find>
-        <Replace />
-        <Comment />
-        <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
-        <Minor>false</Minor>
-        <BeforeOrAfter>false</BeforeOrAfter>
-        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
-      </Replacement>
-      <Replacement>
-        <Find>({{(?:de|fr|ru)-prnc\|[^\|]+?)\|[^}]+?}}</Find>
-        <Replace>$1}}</Replace>
-        <Comment />
-        <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
-        <Minor>false</Minor>
-        <BeforeOrAfter>false</BeforeOrAfter>
-        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
-      </Replacement>
-      <Replacement>
-        <Find>{{-pron-}}\n+{{IPA\|}}\n+({{-)</Find>
-        <Replace>$1</Replace>
-        <Comment />
-        <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
-        <Minor>false</Minor>
-        <BeforeOrAfter>false</BeforeOrAfter>
-        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
-      </Replacement>
-      <Replacement>
-        <Find>===词源===\s*:?\s*(===)</Find>
-        <Replace>$1</Replace>
-        <Comment />
-        <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
-        <Minor>false</Minor>
-        <BeforeOrAfter>false</BeforeOrAfter>
-        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
-      </Replacement>
-      <Replacement>
-        <Find>===发音===\s*{{IPA\|?}}\s*(===)</Find>
-        <Replace>$1</Replace>
-        <Comment />
-        <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
-        <Minor>false</Minor>
-        <BeforeOrAfter>false</BeforeOrAfter>
-        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
-      </Replacement>
-      <Replacement>
-        <Find>==={{-etym-}}===\n+(===|{{-)</Find>
-        <Replace>$1</Replace>
-        <Comment />
-        <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
-        <Minor>false</Minor>
-        <BeforeOrAfter>false</BeforeOrAfter>
-        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
-      </Replacement>
-      <Replacement>
-        <Find>====相关词汇====\n\*同音词：\n\*近义词：\n\*反义词：\n\*派生词：\n\*常见搭配：\n+(===)</Find>
-        <Replace>$1</Replace>
-        <Comment />
-        <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
-        <Minor>false</Minor>
-        <BeforeOrAfter>false</BeforeOrAfter>
-        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
-      </Replacement>
-      <Replacement>
-        <Find>\*\n</Find>
-        <Replace />
-        <Comment />
-        <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
-        <Minor>false</Minor>
-        <BeforeOrAfter>false</BeforeOrAfter>
-        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
-      </Replacement>
-      <Replacement>
-        <Find>====相关词组====\n+(\[\[Category)</Find>
-        <Replace>$1</Replace>
-        <Comment />
-        <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
-        <Minor>false</Minor>
-        <BeforeOrAfter>false</BeforeOrAfter>
-        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
-      </Replacement>
-      <Replacement>
-        <Find>====相关词组====\n+({{fr-conj-)</Find>
-        <Replace>$1</Replace>
-        <Comment />
-        <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
-        <Minor>false</Minor>
-        <BeforeOrAfter>false</BeforeOrAfter>
-        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
-      </Replacement>
-      <Replacement>
-        <Find>====相关词汇====\n\*同音词：\n+(\[\[Category)</Find>
-        <Replace>$1</Replace>
-        <Comment />
-        <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
-        <Minor>false</Minor>
-        <BeforeOrAfter>false</BeforeOrAfter>
-        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
-      </Replacement>
-      <Replacement>
-        <Find>\{\{de-prnc\|</Find>
-        <Replace>{{subst:de-prnc|</Replace>
+        <Find>\[\[«Шицзина»:]]</Find>
+        <Replace>«Шицзина»:</Replace>
         <Comment />
         <IsRegex>false</IsRegex>
         <Enabled>true</Enabled>
@@ -197,141 +77,18 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>\{\{en-prnc\|</Find>
-        <Replace>{{subst:en-prnc</Replace>
+        <Find>\[\[«Ицзина»:]]</Find>
+        <Replace>«Ицзина»:</Replace>
         <Comment />
         <IsRegex>false</IsRegex>
-        <Enabled>true</Enabled>
-        <Minor>false</Minor>
-        <BeforeOrAfter>false</BeforeOrAfter>
-        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
-      </Replacement>
-      <Replacement>
-        <Find>&lt;!--及物动词。第组动词。变位表格见下。--&gt;\n</Find>
-        <Replace />
-        <Comment />
-        <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
-        <Minor>false</Minor>
-        <BeforeOrAfter>false</BeforeOrAfter>
-        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
-      </Replacement>
-      <Replacement>
-        <Find>----\n</Find>
-        <Replace />
-        <Comment />
-        <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
-        <Minor>false</Minor>
-        <BeforeOrAfter>false</BeforeOrAfter>
-        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
-      </Replacement>
-      <Replacement>
-        <Find>\.(\s\s+)</Find>
-        <Replace>. </Replace>
-        <Comment />
-        <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
-        <Minor>false</Minor>
-        <BeforeOrAfter>false</BeforeOrAfter>
-        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
-      </Replacement>
-      <Replacement>
-        <Find>(?&lt;![#a-z])((?:n|m|adj|inv|v)\.|et )</Find>
-        <Replace>\n#$1</Replace>
-        <Comment />
-        <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
-        <Minor>false</Minor>
-        <BeforeOrAfter>false</BeforeOrAfter>
-        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
-      </Replacement>
-      <Replacement>
-        <Find>{{-pt-}}</Find>
-        <Replace>\n==葡萄牙语==</Replace>
-        <Comment />
-        <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
-        <Minor>false</Minor>
-        <BeforeOrAfter>false</BeforeOrAfter>
-        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
-      </Replacement>
-      <Replacement>
-        <Find>{{-mt-}}</Find>
-        <Replace>\n==马耳他语==</Replace>
-        <Comment />
-        <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
-        <Minor>false</Minor>
-        <BeforeOrAfter>false</BeforeOrAfter>
-        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
-      </Replacement>
-      <Replacement>
-        <Find>\n#\n</Find>
-        <Replace>\n</Replace>
-        <Comment />
-        <IsRegex>true</IsRegex>
         <Enabled>true</Enabled>
         <Minor>false</Minor>
         <BeforeOrAfter>false</BeforeOrAfter>
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
     </Replacements>
-    <AdvancedReps>
-      <IRule xsi:type="Rule">
-        <enabled_>true</enabled_>
-        <Children />
-        <Name>Rule</Name>
-        <ruletype_>OnWholePage</ruletype_>
-        <replace_>#((?:[a-z]{1,3}\.\s*)+)(?:\d+\.\s*)?((?:[^a-z\s])+)\s*\d+\.\s*((?:[^a-z\s])+)</replace_>
-        <with_>#$1$2\n#$1$3</with_>
-        <ifContains_ />
-        <ifNotContains_ />
-        <regex_>true</regex_>
-        <ifIsRegex_>false</ifIsRegex_>
-        <numoftimes_>10</numoftimes_>
-        <ifRegexOptions_>None</ifRegexOptions_>
-        <regexOptions_>None</regexOptions_>
-      </IRule>
-      <IRule xsi:type="Rule">
-        <enabled_>true</enabled_>
-        <Children />
-        <Name>Rule</Name>
-        <ruletype_>OnWholePage</ruletype_>
-        <replace_>((?:(?:n|m|adj|inv|v)\.|et ) *)\n#((?:n|m|adj|inv|v)\.|et )</replace_>
-        <with_>$1$2</with_>
-        <ifContains_ />
-        <ifNotContains_ />
-        <regex_>true</regex_>
-        <ifIsRegex_>false</ifIsRegex_>
-        <numoftimes_>10</numoftimes_>
-        <ifRegexOptions_>None</ifRegexOptions_>
-        <regexOptions_>None</regexOptions_>
-      </IRule>
-    </AdvancedReps>
-    <SubstTemplates>
-      <string>-akin-</string>
-      <string>-anton-</string>
-      <string>-decl-</string>
-      <string>-deriv-</string>
-      <string>-etym-</string>
-      <string>-expr-</string>
-      <string>-link-</string>
-      <string>-pron-</string>
-      <string>-refer-</string>
-      <string>-synon-</string>
-      <string>-trans-</string>
-      <string>-usage-</string>
-      <string>-v-</string>
-      <string>-n-</string>
-      <string>-adj-</string>
-      <string>-adv-</string>
-      <string>-intj-</string>
-      <string>-conj-</string>
-      <string>-de-</string>
-      <string>-fi-</string>
-      <string>-sv-</string>
-    </SubstTemplates>
+    <AdvancedReps />
+    <SubstTemplates />
     <IncludeComments>false</IncludeComments>
     <ExpandRecursively>true</ExpandRecursively>
     <IgnoreUnformatted>false</IgnoreUnformatted>
@@ -354,7 +111,7 @@
     <Append>true</Append>
     <Text />
     <Newlines>2</Newlines>
-    <AutoDelay>3</AutoDelay>
+    <AutoDelay>1</AutoDelay>
     <BotMaxEdits>0</BotMaxEdits>
     <SupressTag>false</SupressTag>
     <RegexTypoFix>false</RegexTypoFix>
@@ -365,9 +122,9 @@
       <SavePeriod>30</SavePeriod>
       <SaveFile />
     </AutoSaveEdit>
-    <SelectedSummary>機器人：修復[[:Category:含有受损文件链接的页面|含有受损文件链接的页面]]及清理語法</SelectedSummary>
+    <SelectedSummary>機器人：清理語法</SelectedSummary>
     <Summaries>
-      <string>機器人：修復[[:Category:含有受损文件链接的页面|含有受损文件链接的页面]]及清理語法</string>
+      <string>機器人：清理語法</string>
     </Summaries>
     <PasteMore>
       <string />
@@ -387,7 +144,7 @@
     <WordWrap>true</WordWrap>
     <ToolBarEnabled>false</ToolBarEnabled>
     <BypassRedirect>true</BypassRedirect>
-    <AutoSaveSettings>true</AutoSaveSettings>
+    <AutoSaveSettings>false</AutoSaveSettings>
     <noSectionEditSummary>true</noSectionEditSummary>
     <restrictDefaultsortAddition>true</restrictDefaultsortAddition>
     <restrictOrphanTagging>true</restrictOrphanTagging>
@@ -406,7 +163,7 @@
     <EditToolbarEnabled>true</EditToolbarEnabled>
     <filterNonMainSpace>false</filterNonMainSpace>
     <AutoFilterDuplicates>false</AutoFilterDuplicates>
-    <FocusAtEndOfEditBox>false</FocusAtEndOfEditBox>
+    <FocusAtEndOfEditBox>true</FocusAtEndOfEditBox>
     <scrollToUnbalancedBrackets>false</scrollToUnbalancedBrackets>
     <TextBoxSize>10</TextBoxSize>
     <TextBoxFont>Courier New</TextBoxFont>
@@ -456,7 +213,7 @@
     <SkipSpamFilterBlocked>false</SkipSpamFilterBlocked>
     <SkipInuse>false</SkipInuse>
     <SkipWhenOnlyWhitespaceChanged>false</SkipWhenOnlyWhitespaceChanged>
-    <SkipOnlyGeneralFixChanges>false</SkipOnlyGeneralFixChanges>
+    <SkipOnlyGeneralFixChanges>true</SkipOnlyGeneralFixChanges>
     <SkipOnlyMinorGeneralFixChanges>false</SkipOnlyMinorGeneralFixChanges>
     <SkipOnlyCosmetic>false</SkipOnlyCosmetic>
     <SkipOnlyCasingChanged>false</SkipOnlyCasingChanged>
