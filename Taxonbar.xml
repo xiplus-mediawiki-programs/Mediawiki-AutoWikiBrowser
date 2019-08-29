@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AutoWikiBrowserPreferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xml:space="preserve" Version="5.10.1.0">
+  <Project>wikipedia</Project>
+  <LanguageCode>zh</LanguageCode>
+  <CustomProject />
+  <Protocol>http://</Protocol>
+  <LoginDomain />
+  <List>
+    <ListSource />
+    <SelectedProvider>CategoryListProvider</SelectedProvider>
+    <ArticleList />
+  </List>
+  <FindAndReplace>
+    <Enabled>false</Enabled>
+    <IgnoreSomeText>false</IgnoreSomeText>
+    <IgnoreMoreText>false</IgnoreMoreText>
+    <AppendSummary>true</AppendSummary>
+    <Replacements />
+    <AdvancedReps />
+    <SubstTemplates />
+    <IncludeComments>false</IncludeComments>
+    <ExpandRecursively>true</ExpandRecursively>
+    <IgnoreUnformatted>false</IgnoreUnformatted>
+  </FindAndReplace>
+  <Editprefs>
+    <GeneralFixes>true</GeneralFixes>
+    <Tagger>false</Tagger>
+    <Unicodify>true</Unicodify>
+    <Recategorisation>0</Recategorisation>
+    <NewCategory />
+    <NewCategory2 />
+    <ReImage>0</ReImage>
+    <ImageFind />
+    <Replace />
+    <SkipIfNoCatChange>false</SkipIfNoCatChange>
+    <RemoveSortKey>false</RemoveSortKey>
+    <SkipIfNoImgChange>false</SkipIfNoImgChange>
+    <AppendText>false</AppendText>
+    <AppendTextMetaDataSort>false</AppendTextMetaDataSort>
+    <Append>true</Append>
+    <Text />
+    <Newlines>2</Newlines>
+    <AutoDelay>10</AutoDelay>
+    <BotMaxEdits>0</BotMaxEdits>
+    <SupressTag>false</SupressTag>
+    <RegexTypoFix>false</RegexTypoFix>
+  </Editprefs>
+  <General>
+    <AutoSaveEdit>
+      <Enabled>false</Enabled>
+      <SavePeriod>30</SavePeriod>
+      <SaveFile />
+    </AutoSaveEdit>
+    <SelectedSummary>clean up</SelectedSummary>
+    <Summaries>
+      <string>clean up</string>
+      <string>re-categorisation per [[WP:CFD|CFD]]</string>
+      <string>clean up and re-categorisation per [[WP:CFD|CFD]]</string>
+      <string>removing category per [[WP:CFD|CFD]]</string>
+      <string>[[Wikipedia:Template substitution|subst:'ing]]</string>
+      <string>[[Wikipedia:WikiProject Stub sorting|stub sorting]]</string>
+      <string>[[WP:AWB/T|Typo fixing]]</string>
+      <string>bad link repair</string>
+      <string>Fixing [[Wikipedia:Disambiguation pages with links|links to disambiguation pages]]</string>
+      <string>Unicodifying</string>
+    </Summaries>
+    <PasteMore>
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+    </PasteMore>
+    <FindText />
+    <FindRegex>false</FindRegex>
+    <FindCaseSensitive>false</FindCaseSensitive>
+    <WordWrap>true</WordWrap>
+    <ToolBarEnabled>false</ToolBarEnabled>
+    <BypassRedirect>true</BypassRedirect>
+    <AutoSaveSettings>false</AutoSaveSettings>
+    <noSectionEditSummary>true</noSectionEditSummary>
+    <restrictDefaultsortAddition>true</restrictDefaultsortAddition>
+    <restrictOrphanTagging>true</restrictOrphanTagging>
+    <noMOSComplianceFixes>false</noMOSComplianceFixes>
+    <syntaxHighlightEditBox>false</syntaxHighlightEditBox>
+    <highlightAllFind>false</highlightAllFind>
+    <PreParseMode>false</PreParseMode>
+    <NoAutoChanges>false</NoAutoChanges>
+    <OnLoadAction>0</OnLoadAction>
+    <DiffInBotMode>false</DiffInBotMode>
+    <Minor>true</Minor>
+    <AddToWatchlist>2</AddToWatchlist>
+    <TimerEnabled>false</TimerEnabled>
+    <SortListAlphabetically>false</SortListAlphabetically>
+    <AddIgnoredToLog>false</AddIgnoredToLog>
+    <EditToolbarEnabled>true</EditToolbarEnabled>
+    <filterNonMainSpace>false</filterNonMainSpace>
+    <AutoFilterDuplicates>false</AutoFilterDuplicates>
+    <FocusAtEndOfEditBox>false</FocusAtEndOfEditBox>
+    <scrollToUnbalancedBrackets>false</scrollToUnbalancedBrackets>
+    <TextBoxSize>10</TextBoxSize>
+    <TextBoxFont>Courier New</TextBoxFont>
+    <LowThreadPriority>false</LowThreadPriority>
+    <Beep>false</Beep>
+    <Flash>false</Flash>
+    <Minimize>false</Minimize>
+    <LockSummary>false</LockSummary>
+    <SaveArticleList>true</SaveArticleList>
+    <SuppressUsingAWB>false</SuppressUsingAWB>
+    <AddUsingAWBToActionSummaries>false</AddUsingAWBToActionSummaries>
+    <IgnoreNoBots>false</IgnoreNoBots>
+    <ClearPageListOnProjectChange>false</ClearPageListOnProjectChange>
+    <SortInterWikiOrder>true</SortInterWikiOrder>
+    <ReplaceReferenceTags>true</ReplaceReferenceTags>
+    <LoggingEnabled>true</LoggingEnabled>
+    <AlertPreferences>
+      <int>1</int>
+      <int>2</int>
+      <int>3</int>
+      <int>4</int>
+      <int>5</int>
+      <int>6</int>
+      <int>7</int>
+      <int>8</int>
+      <int>9</int>
+      <int>10</int>
+      <int>11</int>
+      <int>12</int>
+      <int>13</int>
+      <int>14</int>
+      <int>15</int>
+      <int>16</int>
+      <int>17</int>
+      <int>18</int>
+      <int>19</int>
+      <int>20</int>
+      <int>21</int>
+      <int>22</int>
+    </AlertPreferences>
+  </General>
+  <SkipOptions>
+    <SkipNonexistent>true</SkipNonexistent>
+    <Skipexistent>false</Skipexistent>
+    <SkipDontCare>false</SkipDontCare>
+    <SkipWhenNoChanges>false</SkipWhenNoChanges>
+    <SkipSpamFilterBlocked>false</SkipSpamFilterBlocked>
+    <SkipInuse>false</SkipInuse>
+    <SkipWhenOnlyWhitespaceChanged>false</SkipWhenOnlyWhitespaceChanged>
+    <SkipOnlyGeneralFixChanges>true</SkipOnlyGeneralFixChanges>
+    <SkipOnlyMinorGeneralFixChanges>false</SkipOnlyMinorGeneralFixChanges>
+    <SkipOnlyCosmetic>false</SkipOnlyCosmetic>
+    <SkipOnlyCasingChanged>false</SkipOnlyCasingChanged>
+    <SkipIfRedirect>false</SkipIfRedirect>
+    <SkipIfNoAlerts>false</SkipIfNoAlerts>
+    <SkipDoes>false</SkipDoes>
+    <SkipDoesText />
+    <SkipDoesRegex>false</SkipDoesRegex>
+    <SkipDoesCaseSensitive>false</SkipDoesCaseSensitive>
+    <SkipDoesAfterProcessing>false</SkipDoesAfterProcessing>
+    <SkipDoesNot>false</SkipDoesNot>
+    <SkipDoesNotText />
+    <SkipDoesNotRegex>false</SkipDoesNotRegex>
+    <SkipDoesNotCaseSensitive>false</SkipDoesNotCaseSensitive>
+    <SkipDoesNotAfterProcessing>false</SkipDoesNotAfterProcessing>
+    <SkipNoFindAndReplace>false</SkipNoFindAndReplace>
+    <SkipMinorFindAndReplace>false</SkipMinorFindAndReplace>
+    <SkipNoRegexTypoFix>false</SkipNoRegexTypoFix>
+    <SkipNoDisambiguation>false</SkipNoDisambiguation>
+    <SkipNoLinksOnPage>false</SkipNoLinksOnPage>
+    <GeneralSkipList />
+  </SkipOptions>
+  <Module>
+    <Enabled>true</Enabled>
+    <Language>C# 3.5</Language>
+    <Code>public string ProcessArticle(string ArticleText, string ArticleTitle, int wikiNamespace, out string Summary, out bool Skip)
+{
+	// global switches //////////////////////////////////////////////////////////
+	
+	bool SaveSkipSummaries = false;
+	bool SkipPagesLargerThanLimit = false; // used with int Limit
+	bool ManuallyCheckPagesWithoutAGoodInfobox = false; // usually it's an {{infobox person}} or {{infobox scientist}}
+	bool ManuallyPlaceTaxonbarAtEndOfPage = false; // aid for pages w/o a {{DEFAULTSORT}} nor cats; manual only
+	bool LiveDebug = false;
+	bool SandboxDebug = false; // auto-detects
+	Skip = false;
+	
+	
+	// global-use vars //////////////////////////////////////////////////////////
+	
+	int Limit = 2500; // characters/bytes on a page; used with bool SkipPagesLargerThanLimit
+	Summary = "";
+	
+	
+	// preliminary exceptions/error checking ////////////////////////////////////
+	
+	if (ArticleTitle == "User:Tom.Reding/sandbox") SandboxDebug = true;
+	
+	if (SkipPagesLargerThanLimit)
+	{
+		string TooBig_Regex = @"^[\d\D]{" + (Limit + 1) + "}";
+		bool TooBig = Regex.IsMatch(ArticleText, TooBig_Regex);
+		if (TooBig)
+		{
+			Summary += "Too big (&gt;" + Limit + "B). ";
+			Skip = true;
+		}
+	}
+	
+	// check for inappropriate infoboxes
+	string PeopleTemplates_Regex = @"\{\{\s*(?:[Ii]nfobox[ _]+actor[ _]+voice|[Ii]nfobox[ _]+Actor|[Ii]nfobox[ _]+actor|[Ii]nfobox[ _]+Actress|[Ii]nfobox[ _]+actress|[Ii]nfobox[ _]+adult[ _]+biography|[Ii]nfobox[ _]+adult[ _]+female|[Ii]nfobox[ _]+adult[ _]+male|[Ii]nfobox[ _]+Biography|[Ii]nfobox[ _]+biography|[Ii]nfobox[ _]+bio|[Ii]nfobox[ _]+Celebrity|[Ii]nfobox[ _]+director|[Ii]nfobox[ _]+entertainer|[Ii]nfobox[ _]+Fashion[ _]+Designer|[Ii]nfobox[ _]+fashion[ _]+designer|[Ii]nfobox[ _]+film[ _]+actor|[Ii]nfobox[ _]+film[ _]+director|[Ii]nfobox[ _]+human[ _]+being|[Ii]nfobox[ _]+human|[Ii]nfobox[ _]+Indian[ _]+Businessmen|[Ii]nfobox[ _]+Journalist|[Ii]nfobox[ _]+journalist|[Ii]nfobox[ _]+people|[Ii]nfobox[ _]+performer|[Ii]nfobox[ _]+person/measurements|[Ii]nfobox[ _]+person[ _]+ii|[Ii]nfobox[ _]+person|[Ii]nfobox[ _]+Person|[Ii]nfobox[ _]+photographer|[Ii]nfobox[ _]+Real[ _]+Person|[Ii]nfobox[ _]+trade[ _]+unionist|[Ii]nfobox[ _]+victim|[Pp]ersonbox)(?=\s*(?:\||\&lt;\!\-\-))";
+	string ScientistTemplates_Regex = @"\{\{\s*(?:[Ii]nfobox[ _]+Academic|[Ii]nfobox[ _]+chemist|[Ii]nfobox[ _]+historian|[Ii]nfobox[ _]+mathematician|[Ii]nfobox[ _]+Professor|[Ii]nfobox[ _]+scientist|[Ii]nfobox[ _]+Scientist)(?=\s*(?:\||\&lt;\!\-\-))";
+	bool BadInfobox1 = Regex.IsMatch(ArticleText, PeopleTemplates_Regex, RegexOptions.IgnoreCase);
+	bool BadInfobox2 = Regex.IsMatch(ArticleText, ScientistTemplates_Regex, RegexOptions.IgnoreCase);
+	if (BadInfobox1 || BadInfobox2)
+	{
+		Summary += @"Person/scientist infobox found. ";
+		Skip = true;
+	}
+	
+	// check for appropriate infoboxes
+	string TitleTemplates_Regex = @"\{\{\s*(?:DISPLAY ?TITLE|[Ii]talicisedtitle|[Ii]talicised[ _]+title|[Ii]talicizedtitle|[Ii]talicized[ _]+title|[Ii]talicizetitle|[Ii]talicize[ _]+title|[Ii]talicstitle|[Ii]talics[ _]+title|[Ii]talics|ITALICTITLE|[Ii]talictitle|[Ii]talic[ _]+title[ _]+infobox|[Ii]talic[ _]+title|[Ii]talic|[Ii]tal|[Rr]edirect[ _]+italic[ _]+title|[Tt]itle[ _]+italic)";
+	
+	string TaxoTemplates_Regex = @"\{\{\s*(?:Template:\s*|Wikipedia:\s*)?(?:Infobox[ _]+)?(" + // prefixes
+										@"Taxobox|Taxo|TX|Species ?box|Subspeciesbox|Infraspeciesbox|Subspeciesbox/ICN|" + // taxo/species
+										@"Automatic[ _]+t?axobox|" + // auto
+										@"bacteria|microorganism|virus" + // other
+										@")(?=\s*(?:\||\&lt;\!\-\-|" + TitleTemplates_Regex + @"|(?&lt;=Automatic[ _]+t?axobox\s*)\}\}))"; // suffixes
+	bool NoTaxoTemplates = !Regex.IsMatch(ArticleText, TaxoTemplates_Regex, RegexOptions.IgnoreCase);
+	if (NoTaxoTemplates)
+	{
+		if (ManuallyCheckPagesWithoutAGoodInfobox)
+		{
+			if (!BadInfobox1 &amp;&amp; !BadInfobox2)
+			{
+				// OK to proceed (manually)
+			}
+			else
+			{
+				// Skip is already true from 'inappropriate infoboxes' check
+			}
+		}
+		else
+		{
+			Summary += @"No auto/taxo/speciesbox found. ";
+			Skip = true;
+		}
+	}
+	
+	// check for {{Taxonbar
+	string TaxonbarAliases_Regex = @"\{\{\s*(?:[Tt]axobar|[Tt]axon\-bar|[Tt]axonbar|[Tt]axonBar|[Tt]axonIds|[Tt]axon[ _]+bar)"; // 0 grps
+	bool HasTaxonbar = Regex.IsMatch(ArticleText, TaxonbarAliases_Regex, RegexOptions.IgnoreCase);
+	if (HasTaxonbar)
+	{
+		Summary += @"Taxonbar exists. ";
+		Skip = true;
+	}
+	
+	// get wikibase_item via WP API
+	// ex: https://en.wikipedia.org//w/api.php?action=query&amp;format=json&amp;prop=pageprops&amp;titles=Panthera%20leo&amp;redirects=0&amp;formatversion=2&amp;ppprop=wikibase_item
+	// wish I could find a URL_Encode function that worked....
+	string ArticleTitle_URL = ArticleTitle.Replace(" ", @"%20").Replace(",", @"%2C").Replace("'", @"%27").Replace("-", @"%2D").Replace("–", @"%96").Replace("(", @"%28").Replace(")", @"%29").Replace(".", @"%2E").Replace("&amp;", @"%26").Replace("?", @"%3F").Replace("+", @"%2B").Replace(":", @"%3A").Replace("!", @"%21").Replace("/", @"%2F").Replace(@"\", @"%5C");
+	string URL1 = @"https://en.wikipedia.org//w/api.php?action=query&amp;format=json&amp;prop=pageprops&amp;titles=" + 
+						ArticleTitle_URL + @"&amp;redirects=0&amp;formatversion=2&amp;ppprop=wikibase_item";
+	string HTML1 = "";
+	if (!Skip &amp;&amp; !SandboxDebug)
+	{
+		try
+		{
+			HTML1 = Tools.GetHTML(URL1);
+		}
+		catch
+		{
+			Summary = "GetHTML1 failed. ArticleTitle_URL = " + ArticleTitle_URL + " . ";
+			if (!LiveDebug) Skip = true;
+		}
+	}
+	
+	
+	// html1 error checks ///////////////////////////////////////////////////////
+	
+	string QID = Regex.Match(HTML1, @"wikibase_item"":""([^""]+)").Groups[1].Value;
+	if (string.IsNullOrEmpty(QID) &amp;&amp; !Skip &amp;&amp; !SandboxDebug)
+	{
+		Summary = @"QID retrieval failed. ";
+		Skip = true;
+	}
+	
+	if (!Regex.IsMatch(QID, @"^Q\d+$") &amp;&amp; !Skip &amp;&amp; !SandboxDebug) // case sensitive, jtbs
+	{
+		Summary = @"Unexpected QID format. ";
+		Skip = true;
+	}
+	
+	
+	// determine quantity &amp; quality of WD properties used ///////////////////////
+	
+	List&lt;string&gt; GoodPropertyList = new List&lt;string&gt;(new string[] {
+		// alphabetically from [[Template:Taxonbar#Taxon identifiers]]:
+		"P4024",
+		"P2036",
+		"P1348",
+		"P3594",
+		"P2833",
+		"P2026",
+		"P2946",
+		"P3398",
+		"P838",
+		"P687",
+		"P2464",
+		"P3060",
+		"P1940",
+		"P3444",
+//		"P830",	// ignore: EOL, Encyclopedia of Life
+		"P1895",
+		"P938",
+		"P3101",
+		"P1727",
+		"P3100",
+		"P1747",
+		"P842",
+//		"P846",	// ignore: GBIF, Global Biodiversity Information Facility
+		"P1832",
+		"P1421",
+		"P3099",
+		"P1076",
+		"P3151",
+		"P1391",
+		"P961",
+		"P586",
+		"P815",
+		"P627",
+		"P3064",
+		"P1991",
+		"P959",
+		"P962",
+		"P685",
+		"P4122",
+		"P2434",
+		"P3102",
+//		"P1070",	// ignore: TPL, The Plant List
+		"P1772",
+		"P1992",
+		"P2040",
+		"P2455",
+		"P960",
+		"P1745",
+		"P1761",
+		"P3591",
+		"P850",
+		"P3288",
+		"P2426",
+		"P1746"
+	}); // ignores don't count towards the total property count, per [[WT:TREE#Taxonbar addition requirements]]
+	
+	List&lt;string&gt; BadPropertyList = new List&lt;string&gt;(new string[] {
+		"P830",	// ignore: EOL, Encyclopedia of Life
+		"P846",	// ignore: GBIF, Global Biodiversity Information Facility
+		"P1070",	// ignore: TPL, The Plant List
+		
+		// remaining 13 uniques from [[d:Wikidata:WikiProject Taxonomy#Databases]]:
+		// [[Module:Taxonbar/conf]] needs updating (follow up after bulk run)
+		"P1939",
+		"P2752",
+		"P2794",
+		"P3088",
+		"P3186",
+		"P3322",
+		"P3420",
+		"P3606",
+		"P4125",
+		"P4194",
+		"P4301",
+		"P4311",
+		"P4526"
+	});
+	
+	// get Wikidata
+	// ex: https://www.wikidata.org//w/api.php?action=wbgetclaims&amp;format=json&amp;entity=Q36557
+	string URL2 = @"https://www.wikidata.org//w/api.php?action=wbgetclaims&amp;format=json&amp;entity=" + QID;
+	string HTML2 = "";
+	if (!Skip &amp;&amp; !SandboxDebug)
+	{
+		try
+		{
+			HTML2 = Tools.GetHTML(URL2);
+		}
+		catch
+		{
+			Summary = "GetHTML2 failed. URL2 = " + URL2 + " . ";
+			if (!LiveDebug) Skip = true;
+		}
+	}
+	
+	// scrape Wikidata
+	// example text surrounding a populated property:
+	//        "P959": [
+	//            {
+	//                "mainsnak": {
+	//                    "snaktype": "value",
+	//                    "property": "P959",
+	//                    "hash": "c18d910a13321717e90ba037d26f1f1b86558128",
+	//                    "datavalue": {
+	//                        "value": "11500009",
+	//                        "type": "string"
+	//                    },
+	//                    "datatype": "external-id"
+	//                },
+	int iGoodProps = 0;
+	int iBadProps = 0;
+	if (!Skip &amp;&amp; !SandboxDebug)
+	{
+		foreach (string p in GoodPropertyList)
+		{
+			string p_regex = @"""property"":\s*""" + p + @""",[^\{\}]*""datavalue"":\s*\{\s*""value"":\s*""[^""]+""";
+			bool Found = Regex.IsMatch(HTML2, p_regex);
+			if (Found) iGoodProps++;
+		}
+		
+		foreach (string p in BadPropertyList)
+		{
+			string p_regex = @"""property"":\s*""" + p + @""",[^\{\}]*""datavalue"":\s*\{\s*""value"":\s*""[^""]+""";
+			bool Found = Regex.IsMatch(HTML2, p_regex);
+			if (Found) iBadProps++;
+		}
+		
+		if (iGoodProps == 0)
+		{
+			if (iBadProps &gt; 0) Summary += "No good PIDs found. ";
+			else Summary += "No PIDs found. ";
+			Skip = true;
+		}
+	}
+	
+	
+	// main /////////////////////////////////////////////////////////////////////
+	
+	if (!Skip)
+	{
+		if (SandboxDebug)
+		{
+			iGoodProps = 1;
+			QID = "1";
+		}
+		
+		// move {{-stub}} tag closer to end of page, otherwise GenFixes adds an extra line before {{Taxonbar}} that can't be fixed w/o a reparse ([[Smythea]])
+		// leading "\s*" &amp; "\n" for cases like "{{reflist}}{{Malvales-stub}}" ([[Herrania mariae]])
+		string MoveStubAfterCat_Regex = @"\s*(\{\{[^\{\}]*[ -]stub\s*\}\})\s*(\[\[\s*Category[^\[\]]+\]\])";
+		ArticleText = Regex.Replace(ArticleText, MoveStubAfterCat_Regex, "\n" + @"$2" + "\n" + @"$1", RegexOptions.IgnoreCase);
+		
+		string Plural = (iGoodProps &gt; 1) ? "s" : "";
+		string TaxonbarComplete = @"{{Taxonbar|from=" + QID + @"}}";
+		string AddBeforeCats_Regex = @"(^[\d\D]+?)(?=[\r\n]+[ 	]*(?:\{\{\s*Default ?sort|\[\[\s*Category))"; // better results than adding after last cat ([[Hellolycaena]])
+		string SuccessSummary = @"+{{[[Template:Taxonbar|Taxonbar]]|" + 
+										@"[[:Category:Taxonbar templates without from parameter|from]]=" + 
+										@"[[d:Special:EntityPage/" + QID + @"|" + QID + @"]]}} " + 
+										@"([[WT:TREE#Taxonbar addition requirements|" + iGoodProps + @" sig. taxon ID" + Plural + @"]]); " +
+										@"[[WP:GenFixes]] on,";
+		bool NoCat = !Regex.IsMatch(ArticleText, AddBeforeCats_Regex, RegexOptions.IgnoreCase);
+		if (NoCat)
+		{
+			if (ManuallyPlaceTaxonbarAtEndOfPage)
+			{
+				ArticleText += "\n" + TaxonbarComplete;
+				Summary = SuccessSummary + " (uncategorized page) ";
+			}
+			else
+			{
+				Summary += @"No cats/defaultsort to anchor {{Taxonbar}} around. Batch manually/code later. ";
+				Skip = true;
+			}
+		}
+		else
+		{
+			ArticleText = Regex.Replace(ArticleText, AddBeforeCats_Regex, @"$1" + "\n" + TaxonbarComplete, RegexOptions.IgnoreCase);
+			Summary = SuccessSummary;
+		}
+	}
+	
+	
+	// exception tracking ///////////////////////////////////////////////////////
+	
+	if (Skip &amp;&amp; SaveSkipSummaries &amp;&amp; !SandboxDebug)
+	{
+		string Message = ArticleTitle + "\t" + Summary + "\n";
+		string File = @"Module output - Add {{Taxonbar+from}} (skip summaries).txt";
+		string Path = @"F:\"; // desktop
+		string FullPath = Path + File;
+		const bool APPEND = true;
+		Tools.WriteTextFileAbsolutePath(Message, FullPath, APPEND);
+	}
+	
+	if (LiveDebug || SandboxDebug) Skip = false;
+	
+	return ArticleText;
+}</Code>
+  </Module>
+  <ExternalProgram>
+    <Enabled>false</Enabled>
+    <Skip>false</Skip>
+    <Program />
+    <Parameters />
+    <PassAsFile>true</PassAsFile>
+    <OutputFile />
+  </ExternalProgram>
+  <Disambiguation>
+    <Enabled>false</Enabled>
+    <Link />
+    <Variants />
+    <ContextChars>20</ContextChars>
+  </Disambiguation>
+  <Special>
+    <namespaceValues />
+    <remDupes>true</remDupes>
+    <sortAZ>true</sortAZ>
+    <filterTitlesThatContain>false</filterTitlesThatContain>
+    <filterTitlesThatContainText />
+    <filterTitlesThatDontContain>false</filterTitlesThatDontContain>
+    <filterTitlesThatDontContainText />
+    <areRegex>false</areRegex>
+    <opType>-1</opType>
+    <remove />
+  </Special>
+  <Tool>
+    <ListComparerUseCurrentArticleList>0</ListComparerUseCurrentArticleList>
+    <ListSplitterUseCurrentArticleList>0</ListSplitterUseCurrentArticleList>
+    <DatabaseScannerUseCurrentArticleList>0</DatabaseScannerUseCurrentArticleList>
+  </Tool>
+  <Plugin />
+</AutoWikiBrowserPreferences>
