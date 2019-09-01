@@ -8,8 +8,7 @@
   <List>
     <ListSource>Category:拉丁文</ListSource>
     <SelectedProvider>CategoryListProvider</SelectedProvider>
-    <ArticleList>
-    </ArticleList>
+    <ArticleList />
   </List>
   <FindAndReplace>
     <Enabled>true</Enabled>
@@ -18,11 +17,10 @@
     <AppendSummary>false</AppendSummary>
     <Replacements>
       <Replacement>
-        <Find>\[\[Category:拉丁文]]
-</Find>
+        <Find>\[\[Category:拉丁文\]\]\n</Find>
         <Replace />
         <Comment />
-        <IsRegex>false</IsRegex>
+        <IsRegex>true</IsRegex>
         <Enabled>true</Enabled>
         <Minor>false</Minor>
         <BeforeOrAfter>false</BeforeOrAfter>
