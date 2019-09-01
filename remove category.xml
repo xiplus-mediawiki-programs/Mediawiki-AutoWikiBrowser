@@ -17,6 +17,26 @@
     <AppendSummary>false</AppendSummary>
     <Replacements>
       <Replacement>
+        <Find>{{-eng-\|}}\n</Find>
+        <Replace>== 英语 ==\n[[Category:英語]]\n[[Category:拉丁文字]]\n</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>{{-pol-}}\n</Find>
+        <Replace>== 波兰语 ==\n</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
         <Find>\[\[Category:拉丁文\]\]\n</Find>
         <Replace />
         <Comment />
