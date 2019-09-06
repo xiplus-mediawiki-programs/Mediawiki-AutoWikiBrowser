@@ -27,6 +27,16 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
+        <Find>{{-la-}}\n</Find>
+        <Replace>== 拉丁语 ==\n[[Category:拉丁语]]\n</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
         <Find>{{-pol-}}\n</Find>
         <Replace>== 波兰语 ==\n</Replace>
         <Comment />
