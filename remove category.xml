@@ -131,7 +131,7 @@
     <Append>true</Append>
     <Text />
     <Newlines>2</Newlines>
-    <AutoDelay>3</AutoDelay>
+    <AutoDelay>10</AutoDelay>
     <BotMaxEdits>0</BotMaxEdits>
     <SupressTag>false</SupressTag>
     <RegexTypoFix>false</RegexTypoFix>
