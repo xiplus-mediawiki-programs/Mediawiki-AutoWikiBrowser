@@ -17,7 +17,7 @@
     <AppendSummary>false</AppendSummary>
     <Replacements>
       <Replacement>
-        <Find>{{-eng-\|}}\n</Find>
+        <Find>{{-eng?-\|?}}\n?</Find>
         <Replace>== 英语 ==\n[[Category:英語]]\n[[Category:拉丁文字]]\n</Replace>
         <Comment />
         <IsRegex>true</IsRegex>
@@ -27,7 +27,7 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>{{-la-}}\n</Find>
+        <Find>{{-la-}}\n?</Find>
         <Replace>== 拉丁语 ==\n[[Category:拉丁语]]\n</Replace>
         <Comment />
         <IsRegex>true</IsRegex>
@@ -37,7 +37,7 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>{{-pol-}}\n</Find>
+        <Find>{{-pol-}}\n?</Find>
         <Replace>== 波兰语 ==\n</Replace>
         <Comment />
         <IsRegex>true</IsRegex>
@@ -47,7 +47,7 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>{{-fra-}}\n</Find>
+        <Find>{{-fra-}}\n?</Find>
         <Replace>== 法语 ==\n</Replace>
         <Comment />
         <IsRegex>true</IsRegex>
@@ -57,7 +57,7 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>{{-mt-}}\n</Find>
+        <Find>{{-mt-}}\n?</Find>
         <Replace>== 马尔他语 ==\n</Replace>
         <Comment />
         <IsRegex>true</IsRegex>
@@ -67,7 +67,7 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>{{-adj-}}\n</Find>
+        <Find>{{-adj-}}\n?</Find>
         <Replace>=== 形容词 ===\n</Replace>
         <Comment />
         <IsRegex>true</IsRegex>
@@ -77,7 +77,7 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>{{-n-}}\n</Find>
+        <Find>{{-n-}}\n?</Find>
         <Replace>=== 名詞 ===\n</Replace>
         <Comment />
         <IsRegex>true</IsRegex>
@@ -87,7 +87,7 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>{{-refer-}}\n</Find>
+        <Find>{{-refer-}}\n?</Find>
         <Replace>=== 参见 ===\n</Replace>
         <Comment />
         <IsRegex>true</IsRegex>
@@ -97,7 +97,7 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>\[\[Category:拉丁文\]\]\n</Find>
+        <Find>\[\[(Category|分類):拉丁文\]\]\n?</Find>
         <Replace />
         <Comment />
         <IsRegex>true</IsRegex>
