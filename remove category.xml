@@ -21,7 +21,17 @@
         <Replace>== 英语 ==\n[[Category:英語]]\n[[Category:拉丁文字]]\n</Replace>
         <Comment />
         <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
+        <Enabled>false</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>{{-fj-}}\n?</Find>
+        <Replace>== 斐济语 ==\n[[Category:斐济语]]\n</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>false</Enabled>
         <Minor>false</Minor>
         <BeforeOrAfter>false</BeforeOrAfter>
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
@@ -31,7 +41,7 @@
         <Replace>== 拉丁语 ==\n[[Category:拉丁语]]\n</Replace>
         <Comment />
         <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
+        <Enabled>false</Enabled>
         <Minor>false</Minor>
         <BeforeOrAfter>false</BeforeOrAfter>
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
@@ -41,7 +51,7 @@
         <Replace>== 波兰语 ==\n</Replace>
         <Comment />
         <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
+        <Enabled>false</Enabled>
         <Minor>false</Minor>
         <BeforeOrAfter>false</BeforeOrAfter>
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
@@ -51,17 +61,17 @@
         <Replace>== 法语 ==\n</Replace>
         <Comment />
         <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
+        <Enabled>false</Enabled>
         <Minor>false</Minor>
         <BeforeOrAfter>false</BeforeOrAfter>
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
         <Find>{{-mt-}}\n?</Find>
-        <Replace>== 马尔他语 ==\n</Replace>
+        <Replace>== 马尔他语 ==\n[[Category:马尔他语]]\n</Replace>
         <Comment />
         <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
+        <Enabled>false</Enabled>
         <Minor>false</Minor>
         <BeforeOrAfter>false</BeforeOrAfter>
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
@@ -131,7 +141,7 @@
     <Append>true</Append>
     <Text />
     <Newlines>2</Newlines>
-    <AutoDelay>10</AutoDelay>
+    <AutoDelay>1</AutoDelay>
     <BotMaxEdits>0</BotMaxEdits>
     <SupressTag>false</SupressTag>
     <RegexTypoFix>false</RegexTypoFix>
