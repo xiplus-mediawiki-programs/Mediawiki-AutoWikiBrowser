@@ -6,7 +6,7 @@
   <Protocol>http://</Protocol>
   <LoginDomain />
   <List>
-    <ListSource>Category:自2018年11月主題關注度不足的條目</ListSource>
+    <ListSource />
     <SelectedProvider>CategoryListProvider</SelectedProvider>
     <ArticleList />
   </List>
@@ -17,7 +17,7 @@
     <AppendSummary>false</AppendSummary>
     <Replacements>
       <Replacement>
-        <Find>{{notability.+\n</Find>
+        <Find>{{(notability|关注度)\|.+\n</Find>
         <Replace />
         <Comment />
         <IsRegex>true</IsRegex>
@@ -62,9 +62,9 @@
       <SavePeriod>30</SavePeriod>
       <SaveFile />
     </AutoSaveEdit>
-    <SelectedSummary>移除許久未處理的關注度模板</SelectedSummary>
+    <SelectedSummary>機器人：[[Special:PermaLink/56736054#擬批量移除逾時關注度模板|移除許久未處理的關注度模板]]</SelectedSummary>
     <Summaries>
-      <string>移除許久未處理的關注度模板</string>
+      <string>機器人：[[Special:PermaLink/56736054#擬批量移除逾時關注度模板|移除許久未處理的關注度模板]]</string>
     </Summaries>
     <PasteMore>
       <string />
@@ -111,7 +111,7 @@
     <Beep>false</Beep>
     <Flash>false</Flash>
     <Minimize>false</Minimize>
-    <LockSummary>false</LockSummary>
+    <LockSummary>true</LockSummary>
     <SaveArticleList>true</SaveArticleList>
     <SuppressUsingAWB>false</SuppressUsingAWB>
     <AddUsingAWBToActionSummaries>false</AddUsingAWBToActionSummaries>
