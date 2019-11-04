@@ -17,7 +17,7 @@
     <AppendSummary>false</AppendSummary>
     <Replacements>
       <Replacement>
-        <Find>{{\s*(notability|关注度)\s*\|[^}]+}}\n?</Find>
+        <Find>{{\s*(notability|关注度|關注度)\s*\|[^}]+}}\n?</Find>
         <Replace />
         <Comment />
         <IsRegex>true</IsRegex>
