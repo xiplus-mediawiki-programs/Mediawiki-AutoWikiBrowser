@@ -37,8 +37,18 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>(==+\s*)'''+(.+?)'''+(\s*==+)</Find>
+        <Find>(==+\s*)''+(.+?)''+(\s*==+)</Find>
         <Replace>$1$2$3</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>編輯(\s*==)</Find>
+        <Replace>$1</Replace>
         <Comment />
         <IsRegex>true</IsRegex>
         <Enabled>true</Enabled>
