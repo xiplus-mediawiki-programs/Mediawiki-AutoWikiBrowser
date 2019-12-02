@@ -17,7 +17,7 @@
     <AppendSummary>false</AppendSummary>
     <Replacements>
       <Replacement>
-        <Find>{{\s*(notability|关注度|關注度)\s*\|[^}]+}}\n?</Find>
+        <Find>{{\s*(notability|关注度|關注度|fame|MAIR)\s*\|[^}]+}}\n?</Find>
         <Replace />
         <Comment />
         <IsRegex>true</IsRegex>
@@ -62,9 +62,9 @@
       <SavePeriod>30</SavePeriod>
       <SaveFile />
     </AutoSaveEdit>
-    <SelectedSummary>機器人：[[Special:PermaLink/56736054#擬批量移除逾時關注度模板|移除許久未處理的關注度模板]]</SelectedSummary>
+    <SelectedSummary>機器人：移除未被提報或[[Special:PermaLink/56736054#擬批量移除逾時關注度模板|過久未處理]]的關注度模板</SelectedSummary>
     <Summaries>
-      <string>機器人：[[Special:PermaLink/56736054#擬批量移除逾時關注度模板|移除許久未處理的關注度模板]]</string>
+      <string>機器人：移除未被提報或[[Special:PermaLink/56736054#擬批量移除逾時關注度模板|過久未處理]]的關注度模板</string>
     </Summaries>
     <PasteMore>
       <string />
