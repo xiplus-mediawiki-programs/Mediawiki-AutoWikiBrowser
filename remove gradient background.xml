@@ -17,7 +17,7 @@
     <AppendSummary>false</AppendSummary>
     <Replacements>
       <Replacement>
-        <Find>background:linear-gradient\(.+?\)\s*;\s*color:([a-z]+);?\s*</Find>
+        <Find>background:\s*linear-gradient\(.+?\)\s*;\s*color:([a-z]+);?\s*</Find>
         <Replace />
         <Comment />
         <IsRegex>true</IsRegex>
@@ -27,7 +27,7 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>background:linear-gradient\(.+?\);?\s*</Find>
+        <Find>background:\s*linear-gradient\(.+?\);?\s*</Find>
         <Replace />
         <Comment />
         <IsRegex>true</IsRegex>
@@ -47,7 +47,7 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>style="\s*"\s*</Find>
+        <Find>style="\s*" *</Find>
         <Replace />
         <Comment />
         <IsRegex>true</IsRegex>
