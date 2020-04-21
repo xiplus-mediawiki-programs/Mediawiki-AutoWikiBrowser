@@ -17,8 +17,8 @@
     <AppendSummary>false</AppendSummary>
     <Replacements>
       <Replacement>
-        <Find>{{subst:de new\|(\[\[Category:.+?\]\])(.+)\| (.+?)'''==德语==\n</Find>
-        <Replace>==德语==\n$1\n# $2\n</Replace>
+        <Find>{{subst:de new\|(\[\[Category:.+?\]\])?({{zhushi\|[^|]+\|[^|]+}}[^|]+)[\s\S]+</Find>
+        <Replace>==德语==\n# $2\n$1</Replace>
         <Comment />
         <IsRegex>true</IsRegex>
         <Enabled>true</Enabled>
@@ -27,8 +27,8 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>{{subst:de new\|(.+)\| (.+?)'''==德语==\n</Find>
-        <Replace>==德语==\n# $1\n</Replace>
+        <Find>{{subst:de new\|(\[\[Category:.+?\]\])?([^|]+)[\s\S]+</Find>
+        <Replace>==德语==\n# $2\n$1</Replace>
         <Comment />
         <IsRegex>true</IsRegex>
         <Enabled>true</Enabled>
@@ -37,8 +37,8 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>(\[\[Category:.+]])((?:adj|vi)..+)</Find>
-        <Replace># $2\n$1</Replace>
+        <Find>\.  +</Find>
+        <Replace>. </Replace>
         <Comment />
         <IsRegex>true</IsRegex>
         <Enabled>true</Enabled>
@@ -47,18 +47,8 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
-        <Find>(\[\[Category:.+]])({{zhushi\|.+)</Find>
-        <Replace># $2\n$1</Replace>
-        <Comment />
-        <IsRegex>true</IsRegex>
-        <Enabled>true</Enabled>
-        <Minor>false</Minor>
-        <BeforeOrAfter>false</BeforeOrAfter>
-        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
-      </Replacement>
-      <Replacement>
-        <Find>\n((?:adj|vi)\. )</Find>
-        <Replace>\n# $1</Replace>
+        <Find>}}  +</Find>
+        <Replace>}} </Replace>
         <Comment />
         <IsRegex>true</IsRegex>
         <Enabled>true</Enabled>
@@ -90,7 +80,7 @@
     <AppendTextMetaDataSort>false</AppendTextMetaDataSort>
     <Append>true</Append>
     <Text />
-    <Newlines>2</Newlines>
+    <Newlines>0</Newlines>
     <AutoDelay>10</AutoDelay>
     <BotMaxEdits>0</BotMaxEdits>
     <SupressTag>false</SupressTag>
@@ -124,7 +114,7 @@
     <WordWrap>true</WordWrap>
     <ToolBarEnabled>false</ToolBarEnabled>
     <BypassRedirect>true</BypassRedirect>
-    <AutoSaveSettings>false</AutoSaveSettings>
+    <AutoSaveSettings>true</AutoSaveSettings>
     <noSectionEditSummary>true</noSectionEditSummary>
     <restrictDefaultsortAddition>true</restrictDefaultsortAddition>
     <restrictOrphanTagging>true</restrictOrphanTagging>
@@ -151,7 +141,7 @@
     <Beep>false</Beep>
     <Flash>false</Flash>
     <Minimize>false</Minimize>
-    <LockSummary>false</LockSummary>
+    <LockSummary>true</LockSummary>
     <SaveArticleList>true</SaveArticleList>
     <SuppressUsingAWB>false</SuppressUsingAWB>
     <AddUsingAWBToActionSummaries>false</AddUsingAWBToActionSummaries>
@@ -223,9 +213,7 @@
         {
             Skip = false;
             Summary = "test";
-
             ArticleText = "test \r\n\r\n" + ArticleText;
-
             return ArticleText;
         }</Code>
   </Module>
