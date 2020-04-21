@@ -36,6 +36,16 @@
         <BeforeOrAfter>false</BeforeOrAfter>
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
+      <Replacement>
+        <Find>&lt;font size=5&gt;( \[http:[^\]]+\])\n</Find>
+        <Replace>&lt;span style="font-size: x-large;"&gt;$1&lt;/span&gt;\n</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
     </Replacements>
     <AdvancedReps />
     <SubstTemplates />
