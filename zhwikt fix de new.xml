@@ -81,7 +81,7 @@
     <Append>true</Append>
     <Text />
     <Newlines>0</Newlines>
-    <AutoDelay>10</AutoDelay>
+    <AutoDelay>3</AutoDelay>
     <BotMaxEdits>0</BotMaxEdits>
     <SupressTag>false</SupressTag>
     <RegexTypoFix>false</RegexTypoFix>
@@ -124,7 +124,7 @@
     <PreParseMode>false</PreParseMode>
     <NoAutoChanges>false</NoAutoChanges>
     <OnLoadAction>0</OnLoadAction>
-    <DiffInBotMode>false</DiffInBotMode>
+    <DiffInBotMode>true</DiffInBotMode>
     <Minor>false</Minor>
     <AddToWatchlist>2</AddToWatchlist>
     <TimerEnabled>false</TimerEnabled>
