@@ -17,7 +17,7 @@
     <AppendSummary>false</AppendSummary>
     <Replacements>
       <Replacement>
-        <Find>({{noteTA[^}]+?}})\n+</Find>
+        <Find>({{noteTA\s*\|[^}]+?}})\n+</Find>
         <Replace>&lt;noinclude&gt;\n$1\n&lt;/noinclude&gt;</Replace>
         <Comment />
         <IsRegex>true</IsRegex>
@@ -82,9 +82,9 @@
       <SavePeriod>30</SavePeriod>
       <SaveFile />
     </AutoSaveEdit>
-    <SelectedSummary>[[Special:PermaLink/59134549#其他注意事項|將NoteTA放在noinclude裡]]</SelectedSummary>
+    <SelectedSummary>將NoteTA放在noinclude裡，請閱讀[[Special:PermaLink/59134549#其他注意事項|NoteTA注意事項]]</SelectedSummary>
     <Summaries>
-      <string>[[Special:PermaLink/59134549#其他注意事項|將NoteTA放在noinclude裡]]</string>
+      <string>將NoteTA放在noinclude裡，請閱讀[[Special:PermaLink/59134549#其他注意事項|NoteTA注意事項]]</string>
     </Summaries>
     <PasteMore>
       <string />
