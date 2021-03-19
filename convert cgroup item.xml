@@ -17,6 +17,16 @@
     <AppendSummary>false</AppendSummary>
     <Replacements>
       <Replacement>
+        <Find>^(return\s*{\s*\n)</Find>
+        <Replace>local Item = require('Module:CGroup/core').Item; -- 用法： Item('原文', '轉換規則')\n\n$1</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
         <Find>{\s*type\s*=\s*'item',\s*rule\s*=\s*'([^']+?)'\s*},</Find>
         <Replace>Item(nil, '$1'),</Replace>
         <Comment />
@@ -66,10 +76,10 @@
     <SkipIfNoCatChange>false</SkipIfNoCatChange>
     <RemoveSortKey>false</RemoveSortKey>
     <SkipIfNoImgChange>false</SkipIfNoImgChange>
-    <AppendText>true</AppendText>
+    <AppendText>false</AppendText>
     <AppendTextMetaDataSort>false</AppendTextMetaDataSort>
     <Append>false</Append>
-    <Text>local Item = require('Module:CGroup/core').Item; -- 用法： Item('原文', '轉換規則')</Text>
+    <Text />
     <Newlines>2</Newlines>
     <AutoDelay>10</AutoDelay>
     <BotMaxEdits>0</BotMaxEdits>
@@ -203,9 +213,7 @@
         {
             Skip = false;
             Summary = "test";
-
             ArticleText = "test \r\n\r\n" + ArticleText;
-
             return ArticleText;
         }</Code>
   </Module>
