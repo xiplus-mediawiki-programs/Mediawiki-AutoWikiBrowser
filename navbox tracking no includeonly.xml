@@ -6,7 +6,7 @@
   <Protocol>http://</Protocol>
   <LoginDomain />
   <List>
-    <ListSource />
+    <ListSource>Category:Name參數和實際不同的導航框</ListSource>
     <SelectedProvider>CategoryListProvider</SelectedProvider>
     <ArticleList />
   </List>
@@ -189,14 +189,14 @@
   <Module>
     <Enabled>false</Enabled>
     <Language>C# 3.5</Language>
-    <Code>        public string ProcessArticle(string ArticleText, string ArticleTitle, int wikiNamespace, out string Summary, out bool Skip)
-        {
-            Skip = false;
-            Summary = "test";
-
-            ArticleText = "test \r\n\r\n" + ArticleText;
-
-            return ArticleText;
+    <Code>        public string ProcessArticle(string ArticleText, string ArticleTitle, int wikiNamespace, out string Summary, out bool Skip)
+        {
+            Skip = false;
+            Summary = "test";
+
+            ArticleText = "test \r\n\r\n" + ArticleText;
+
+            return ArticleText;
         }</Code>
   </Module>
   <ExternalProgram>
