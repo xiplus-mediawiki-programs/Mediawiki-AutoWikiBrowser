@@ -6,7 +6,7 @@
   <Protocol>http://</Protocol>
   <LoginDomain />
   <List>
-    <ListSource />
+    <ListSource>Category:公共转换组模块</ListSource>
     <SelectedProvider>CategoryListProvider</SelectedProvider>
     <ArticleList />
   </List>
@@ -17,8 +17,8 @@
     <AppendSummary>false</AppendSummary>
     <Replacements>
       <Replacement>
-        <Find>^(return\s*{\s*\n)</Find>
-        <Replace>local Item = require('Module:CGroup/core').Item; -- 用法： Item('原文', '轉換規則')\n\n$1</Replace>
+        <Find>^(?:local function Item\(o, r\)[\s\S]*)?(return\s*{\s*\n)</Find>
+        <Replace>-- 用法： Item('原文', '轉換規則')\nlocal Item = require('Module:CGroup/core').Item;\n\n$1</Replace>
         <Comment />
         <IsRegex>true</IsRegex>
         <Enabled>true</Enabled>
@@ -92,9 +92,9 @@
       <SavePeriod>30</SavePeriod>
       <SaveFile />
     </AutoSaveEdit>
-    <SelectedSummary>自動轉換為語法糖</SelectedSummary>
+    <SelectedSummary>[[Special:PermaLink/64926369#Module转换组定义转换项时，能否不用填写_type_=_"item"_？|自動轉換為語法糖]]</SelectedSummary>
     <Summaries>
-      <string>自動轉換為語法糖</string>
+      <string>[[Special:PermaLink/64926369#Module转换组定义转换项时，能否不用填写_type_=_"item"_？|自動轉換為語法糖]]</string>
     </Summaries>
     <PasteMore>
       <string />
@@ -232,7 +232,9 @@
     <ContextChars>20</ContextChars>
   </Disambiguation>
   <Special>
-    <namespaceValues />
+    <namespaceValues>
+      <int>828</int>
+    </namespaceValues>
     <remDupes>true</remDupes>
     <sortAZ>true</sortAZ>
     <filterTitlesThatContain>false</filterTitlesThatContain>
@@ -240,7 +242,7 @@
     <filterTitlesThatDontContain>false</filterTitlesThatDontContain>
     <filterTitlesThatDontContainText />
     <areRegex>false</areRegex>
-    <opType>-1</opType>
+    <opType>0</opType>
     <remove />
   </Special>
   <Tool>
