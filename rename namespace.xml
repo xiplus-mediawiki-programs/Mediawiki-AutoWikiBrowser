@@ -94,7 +94,7 @@
     <WordWrap>true</WordWrap>
     <ToolBarEnabled>false</ToolBarEnabled>
     <BypassRedirect>true</BypassRedirect>
-    <AutoSaveSettings>false</AutoSaveSettings>
+    <AutoSaveSettings>true</AutoSaveSettings>
     <noSectionEditSummary>true</noSectionEditSummary>
     <restrictDefaultsortAddition>true</restrictDefaultsortAddition>
     <restrictOrphanTagging>true</restrictOrphanTagging>
