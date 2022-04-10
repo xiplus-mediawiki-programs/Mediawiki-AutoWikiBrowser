@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<AutoWikiBrowserPreferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xml:space="preserve" Version="5.10.1.0">
+<AutoWikiBrowserPreferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xml:space="preserve" Version="6.2.1.0">
   <Project>wikipedia</Project>
   <LanguageCode>zh</LanguageCode>
   <CustomProject />
   <Protocol>http://</Protocol>
   <LoginDomain />
   <List>
-    <ListSource>Template:uw-test4</ListSource>
+    <ListSource>Template:Db-notice</ListSource>
     <SelectedProvider>WhatTranscludesPageAllNSListProvider</SelectedProvider>
     <ArticleList />
   </List>
@@ -17,11 +17,51 @@
     <AppendSummary>false</AppendSummary>
     <Replacements>
       <Replacement>
-        <Find>\{\{test</Find>
-        <Replace>{{subst:test</Replace>
+        <Find>\{\{\#if:</Find>
+        <Replace>{{subst:#if:</Replace>
         <Comment />
         <IsRegex>false</IsRegex>
-        <Enabled>false</Enabled>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\{\{\#ifeq:</Find>
+        <Replace>{{subst:#ifeq:</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\{\{NAMESPACE}}</Find>
+        <Replace>{{subst:NAMESPACE}}</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\{\{BASEPAGENAME}}</Find>
+        <Replace>{{subst:BASEPAGENAME}}</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>{{uw-</Find>
+        <Replace>{{subst:uw-</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
         <Minor>false</Minor>
         <BeforeOrAfter>false</BeforeOrAfter>
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
@@ -29,19 +69,7 @@
     </Replacements>
     <AdvancedReps />
     <SubstTemplates>
-      <string>Test</string>
-      <string>Test2</string>
-      <string>Test3</string>
-      <string>Test4</string>
-      <string>Test5</string>
-      <string>Uw-test1</string>
-      <string>Uw-test2</string>
-      <string>Uw-test3</string>
-      <string>Uw-test4</string>
-      <string>警告1</string>
-      <string>警告2</string>
-      <string>警告3</string>
-      <string>警告4</string>
+      <string>Db-notice</string>
     </SubstTemplates>
     <IncludeComments>false</IncludeComments>
     <ExpandRecursively>false</ExpandRecursively>
@@ -65,7 +93,7 @@
     <Append>true</Append>
     <Text />
     <Newlines>2</Newlines>
-    <AutoDelay>10</AutoDelay>
+    <AutoDelay>5</AutoDelay>
     <BotMaxEdits>0</BotMaxEdits>
     <SupressTag>false</SupressTag>
     <RegexTypoFix>false</RegexTypoFix>
@@ -216,7 +244,9 @@
     <ContextChars>20</ContextChars>
   </Disambiguation>
   <Special>
-    <namespaceValues />
+    <namespaceValues>
+      <int>3</int>
+    </namespaceValues>
     <remDupes>true</remDupes>
     <sortAZ>true</sortAZ>
     <filterTitlesThatContain>false</filterTitlesThatContain>
@@ -224,7 +254,7 @@
     <filterTitlesThatDontContain>false</filterTitlesThatDontContain>
     <filterTitlesThatDontContainText />
     <areRegex>false</areRegex>
-    <opType>-1</opType>
+    <opType>0</opType>
     <remove />
   </Special>
   <Tool>
